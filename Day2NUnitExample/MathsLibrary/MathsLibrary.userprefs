@@ -1,0 +1,45 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MathsLibrary/Average/Mean.cs">
+    <Files>
+      <File FileName="MathsLibrary/Average/Mean.cs" Line="15" Column="7" />
+      <File FileName="MathsLibrary/MathsLibrary.Tests/MathsLibrary.Tests/Average/MedianTests.cs" Line="30" Column="38" />
+      <File FileName="MathsLibrary/MathsLibrary.Tests/MathsLibrary.Tests/Average/MeanTests.cs" Line="33" Column="56" />
+      <File FileName="MathsLibrary/MathsLibrary.Tests/MathsLibrary.Tests/Average/ModeTests.cs" Line="15" Column="7" />
+      <File FileName="MathsLibrary/Average/Median.cs" Line="8" Column="47" />
+      <File FileName="MathsLibrary/Average/Mode.cs" Line="8" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MathsLibrary" expanded="True">
+            <Node name="Average" expanded="True">
+              <Node name="Mean.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node name="MathsLibrary.Tests" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Average" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True">
+          <Node name="MathsLibrary" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux2/Day2NUnitExample/MathsLibrary/MathsLibrary/MathsLibrary.Tests/MathsLibrary.Tests/Average/MeanTests.cs" line="25" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

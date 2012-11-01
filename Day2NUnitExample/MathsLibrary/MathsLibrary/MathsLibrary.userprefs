@@ -1,0 +1,54 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MathsLibrary.Tests/MathsLibrary.Tests/Average/MedianTests.cs">
+    <Files>
+      <File FileName="Average/Mean.cs" Line="17" Column="33" />
+      <File FileName="Average/Median.cs" Line="27" Column="4" />
+      <File FileName="Average/Mode.cs" Line="36" Column="1" />
+      <File FileName="MathsLibrary.Tests/MathsLibrary.Tests/Average/MedianTests.cs" Line="16" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MathsLibrary" expanded="True">
+            <Node name="Average" expanded="True" />
+          </Node>
+          <Node name="MathsLibrary.Tests" expanded="True">
+            <Node name="Average" expanded="True">
+              <Node name="MedianTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>data</Value>
+          <Value>middlePosition</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Option id="ShowTestTime" value="True" />
+          <Node name="MathsLibrary.Tests" expanded="True">
+            <Node name="MathsLibrary" expanded="True">
+              <Node name="Tests" expanded="True" selected="True">
+                <Node name="MeanTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux2/Day2NUnitExample/MathsLibrary/MathsLibrary/Average/Mean.cs" line="11" />
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux2/Day2NUnitExample/MathsLibrary/MathsLibrary/Average/Median.cs" line="20" />
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux2/Day2NUnitExample/MathsLibrary/MathsLibrary/MathsLibrary.Tests/MathsLibrary.Tests/Average/ModeTests.cs" line="24" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
