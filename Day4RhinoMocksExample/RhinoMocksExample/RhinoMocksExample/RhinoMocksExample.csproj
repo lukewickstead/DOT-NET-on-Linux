@@ -33,8 +33,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="IModelRepository.cs" />
+    <Compile Include="ModelCreator.cs" />
+    <Compile Include="ModelRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

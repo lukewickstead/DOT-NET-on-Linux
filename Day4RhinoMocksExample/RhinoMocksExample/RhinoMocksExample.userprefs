@@ -1,17 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../RhinoMocksExampleTests/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RhinoMocksExample/MyClass.cs">
     <Files>
-      <File FileName="RhinoMocksExample/MyClass.cs" Line="34" Column="1" />
+      <File FileName="RhinoMocksExample/MyClass.cs" Line="10" Column="6" />
       <File FileName="../RhinoMocksExampleTests/Test.cs" Line="62" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="RhinoMocksExample" expanded="True" />
-          <Node name="RhinoMocksExampleTests" expanded="True">
+          <Node name="RhinoMocksExample" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="Test.cs" selected="True" />
+          </Node>
+          <Node name="RhinoMocksExampleTests" expanded="True">
+            <Node name="References" expanded="True" selected="True">
+              <Node name="Ninject" expanded="True" />
+              <Node name="Rhino.Mocks" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
