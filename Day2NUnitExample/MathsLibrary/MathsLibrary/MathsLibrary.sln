@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary", "MathsLibrary.csproj", "{29FF6FCD-EF77-4319-BC5F-F8E15893F663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary.Tests", "MathsLibrary.Tests\MathsLibrary.Tests\MathsLibrary.Tests.csproj", "{A21E778D-89AA-4E9A-90EC-369BA1330734}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FF6FCD-EF77-4319-BC5F-F8E15893F663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FF6FCD-EF77-4319-BC5F-F8E15893F663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FF6FCD-EF77-4319-BC5F-F8E15893F663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FF6FCD-EF77-4319-BC5F-F8E15893F663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21E778D-89AA-4E9A-90EC-369BA1330734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21E778D-89AA-4E9A-90EC-369BA1330734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21E778D-89AA-4E9A-90EC-369BA1330734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21E778D-89AA-4E9A-90EC-369BA1330734}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MathsLibrary.csproj
+	EndGlobalSection
+EndGlobal

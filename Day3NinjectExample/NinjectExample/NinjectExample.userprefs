@@ -1,0 +1,49 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectExampleTests/Test.cs">
+    <Files>
+      <File FileName="NinjectExampleTests/Test.cs" Line="16" Column="21" />
+      <File FileName="NinjectExample/Models/SimpleClass.cs" Line="15" Column="1" />
+      <File FileName="NinjectExample/Models/ClassWithDependancy.cs" Line="24" Column="1" />
+      <File FileName="NinjectExample/InjectionFactory.cs" Line="47" Column="97" />
+      <File FileName="NinjectExample/Models/ClassWithConstructorParameters.cs" Line="12" Column="4" />
+      <File FileName="NinjectExample/Interfaces/IClassWithConstructorParameters.cs" Line="7" Column="3" />
+      <File FileName="NinjectExample/Interfaces/ISimpleClass.cs" Line="3" Column="36" />
+      <File FileName="NinjectExample/Models/ClassWithDependancyAlso.cs" Line="6" Column="38" />
+      <File FileName="NinjectExample/Models/SimpleClassAlso.cs" Line="10" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="NinjectExample" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Interfaces" expanded="True" />
+            <Node name="Models" expanded="True" />
+          </Node>
+          <Node name="NinjectExampleTests" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True">
+          <Node name="NinjectExampleTests" expanded="True">
+            <Node name="NinjectExampleTests" expanded="True">
+              <Node name="Test" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day3NinjectExample/NinjectExample/NinjectExample/Model/SimpleClass.cs" line="10" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

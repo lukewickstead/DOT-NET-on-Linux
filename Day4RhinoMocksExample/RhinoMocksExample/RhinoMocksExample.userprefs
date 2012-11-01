@@ -1,0 +1,47 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../RhinoMocksExampleTests/Test.cs">
+    <Files>
+      <File FileName="RhinoMocksExample/MyClass.cs" Line="34" Column="1" />
+      <File FileName="../RhinoMocksExampleTests/Test.cs" Line="62" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="RhinoMocksExample" expanded="True" />
+          <Node name="RhinoMocksExampleTests" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Test.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>products</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="RhinoMocksExampleTests" expanded="True">
+            <Node name="ProductApp" expanded="True">
+              <Node name="Tests" expanded="True">
+                <Node name="MyPriceReducerTest" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day4RhinoMocksExample/RhinoMocksExampleTests/Test.cs" line="105" />
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day4RhinoMocksExample/RhinoMocksExample/RhinoMocksExample/MyClass.cs" line="55" />
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day4RhinoMocksExample/RhinoMocksExampleTests/Test.cs" line="81" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
