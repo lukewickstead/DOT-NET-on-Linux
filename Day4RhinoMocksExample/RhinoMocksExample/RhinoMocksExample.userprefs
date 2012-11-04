@@ -1,21 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RhinoMocksExample/MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../RhinoMocksExampleTests/ModelCreatorTests.cs">
     <Files>
-      <File FileName="RhinoMocksExample/MyClass.cs" Line="10" Column="6" />
-      <File FileName="../RhinoMocksExampleTests/Test.cs" Line="62" Column="32" />
+      <File FileName="RhinoMocksExample/IModelRepository.cs" Line="8" Column="3" />
+      <File FileName="RhinoMocksExample/ModelRepository.cs" Line="11" Column="3" />
+      <File FileName="../RhinoMocksExampleTests/ModelCreatorTests.cs" Line="47" Column="4" />
+      <File FileName="RhinoMocksExample/ModelCreator.cs" Line="11" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="RhinoMocksExample" expanded="True">
-            <Node name="References" expanded="True" />
-          </Node>
+          <Node name="RhinoMocksExample" expanded="True" />
           <Node name="RhinoMocksExampleTests" expanded="True">
-            <Node name="References" expanded="True" selected="True">
-              <Node name="Ninject" expanded="True" />
-              <Node name="Rhino.Mocks" expanded="True" />
-            </Node>
+            <Node name="References" expanded="True" />
+            <Node name="ModelCreatorTests.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -24,15 +22,15 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>products</Value>
+          <Value>models</Value>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True">
           <Node name="RhinoMocksExampleTests" expanded="True">
-            <Node name="ProductApp" expanded="True">
-              <Node name="Tests" expanded="True">
-                <Node name="MyPriceReducerTest" expanded="True" selected="True" />
+            <Node name="RhinoMocksExampleTests" expanded="True">
+              <Node name="ModelCreatorTests" expanded="True">
+                <Node name="CanMockProperty" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -41,11 +39,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day4RhinoMocksExample/RhinoMocksExampleTests/Test.cs" line="105" />
-      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day4RhinoMocksExample/RhinoMocksExample/RhinoMocksExample/MyClass.cs" line="55" />
-      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day4RhinoMocksExample/RhinoMocksExampleTests/Test.cs" line="81" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
