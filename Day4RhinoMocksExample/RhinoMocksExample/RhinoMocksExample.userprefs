@@ -4,16 +4,17 @@
     <Files>
       <File FileName="RhinoMocksExample/IModelRepository.cs" Line="8" Column="3" />
       <File FileName="RhinoMocksExample/ModelRepository.cs" Line="11" Column="3" />
-      <File FileName="../RhinoMocksExampleTests/ModelCreatorTests.cs" Line="47" Column="4" />
-      <File FileName="RhinoMocksExample/ModelCreator.cs" Line="11" Column="14" />
+      <File FileName="../RhinoMocksExampleTests/ModelCreatorTests.cs" Line="82" Column="31" />
+      <File FileName="RhinoMocksExample/ModelCreator.cs" Line="26" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="RhinoMocksExample" expanded="True" />
-          <Node name="RhinoMocksExampleTests" expanded="True">
+          <Node name="RhinoMocksExample" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="ModelCreatorTests.cs" selected="True" />
+          </Node>
+          <Node name="RhinoMocksExampleTests" expanded="True">
+            <Node name="References" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -25,12 +26,15 @@
           <Value>models</Value>
         </State>
       </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State expanded="True" selected="True" />
+      </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True">
           <Node name="RhinoMocksExampleTests" expanded="True">
             <Node name="RhinoMocksExampleTests" expanded="True">
               <Node name="ModelCreatorTests" expanded="True">
-                <Node name="CanMockProperty" selected="True" />
+                <Node name="CanMockRemove" selected="True" />
               </Node>
             </Node>
           </Node>

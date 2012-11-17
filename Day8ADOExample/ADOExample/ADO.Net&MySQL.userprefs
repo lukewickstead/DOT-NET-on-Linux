@@ -1,0 +1,40 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ADO.Net&amp;MySQL/MyClass.cs">
+    <Files>
+      <File FileName="ADO.Net&amp;MySQL/MyClass.cs" Line="18" Column="7" />
+      <File FileName="ADO.Net&amp;MySQLTests/Test.cs" Line="14" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ADODotNetAndMySQL" expanded="True">
+            <Node name="References" expanded="True" selected="True" />
+          </Node>
+          <Node name="ADODotNetAndMySQLTests" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs" line="13" />
+      <Breakpoint file="/PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs" line="14" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

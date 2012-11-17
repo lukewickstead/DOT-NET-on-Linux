@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2012-11-11T18:41:00</TestDate>
+      <Passed>1</Passed>
+      <Errors>1</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-11-11T18:41:23</TestDate>
+      <Passed>2</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.55ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-11-11T19:23:15</TestDate>
+      <Passed>1</Passed>
+      <Errors>0</Errors>
+      <Failures>1</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-11-11T19:24:14</TestDate>
+      <Passed>1</Passed>
+      <Errors>0</Errors>
+      <Failures>1</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-11-11T19:25:11</TestDate>
+      <Passed>2</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.57ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-11-11T19:31:29</TestDate>
+      <Passed>1</Passed>
+      <Errors>0</Errors>
+      <Failures>1</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="ADODotNetAndMySQLTests">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2012-11-11T18:41:00</TestDate>
+          <Passed>1</Passed>
+          <Errors>1</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-11-11T18:41:23</TestDate>
+          <Passed>2</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.54ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-11-11T19:23:15</TestDate>
+          <Passed>1</Passed>
+          <Errors>0</Errors>
+          <Failures>1</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-11-11T19:24:14</TestDate>
+          <Passed>1</Passed>
+          <Errors>0</Errors>
+          <Failures>1</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-11-11T19:25:11</TestDate>
+          <Passed>2</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.57ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-11-11T19:31:29</TestDate>
+          <Passed>1</Passed>
+          <Errors>0</Errors>
+          <Failures>1</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="Test">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:16:15</TestDate>
+              <Passed>2</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:19:17</TestDate>
+              <Passed>2</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:19:28</TestDate>
+              <Passed>1</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:19:35</TestDate>
+              <Passed>1</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:22:23</TestDate>
+              <Passed>1</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:23:13</TestDate>
+              <Passed>1</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:23:55</TestDate>
+              <Passed>0</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Object reference not set to an instance of an object</Message>
+              <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitTestSuite.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:25:36</TestDate>
+              <Passed>1</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:26:07</TestDate>
+              <Passed>1</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:41:00</TestDate>
+              <Passed>1</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T18:41:23</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.52ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T19:23:15</TestDate>
+              <Passed>1</Passed>
+              <Errors>0</Errors>
+              <Failures>1</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T19:24:14</TestDate>
+              <Passed>1</Passed>
+              <Errors>0</Errors>
+              <Failures>1</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T19:25:11</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.54ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-11-11T19:31:29</TestDate>
+              <Passed>1</Passed>
+              <Errors>0</Errors>
+              <Failures>1</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="TestInsert">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:31:47</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.FormatException : Index (zero based) must be greater than or equal to zero and less than the size of the argument list.</Message>
+                  <StackTrace>  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.String.Format (System.String format, System.Object arg0) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Schema.ModelSchema.GetValues (ADODotNetAndMySQL.DAL.Models.Model model) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Schema/ModelSchema.cs:21 
+  at ADODotNetAndMySQL.DAL.Util.SQLHelper.InsertInto[Model] (System.String tableName, System.Collections.Generic.List`1 models, System.Func`1 getFields, System.Func`2 getValues) [0x0001a] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Utils/SQLHelper.cs:23 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.Insert (System.Collections.Generic.List`1 models) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:26 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x0013f] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:32:41</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.FormatException : Index (zero based) must be greater than or equal to zero and less than the size of the argument list.</Message>
+                  <StackTrace>  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.String.Format (System.String format, System.Object arg0) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Schema.ModelSchema.GetValues (ADODotNetAndMySQL.DAL.Models.Model model) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Schema/ModelSchema.cs:21 
+  at ADODotNetAndMySQL.DAL.Util.SQLHelper.InsertInto[Model] (System.String tableName, System.Collections.Generic.List`1 models, System.Func`1 getFields, System.Func`2 getValues) [0x0001a] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Utils/SQLHelper.cs:23 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.Insert (System.Collections.Generic.List`1 models) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:26 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x0013f] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:33:07</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.FormatException : Index (zero based) must be greater than or equal to zero and less than the size of the argument list.</Message>
+                  <StackTrace>  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.String.Format (System.String format, System.Object arg0) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Schema.ModelSchema.GetValues (ADODotNetAndMySQL.DAL.Models.Model model) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Schema/ModelSchema.cs:21 
+  at ADODotNetAndMySQL.DAL.Util.SQLHelper.InsertInto[Model] (System.String tableName, System.Collections.Generic.List`1 models, System.Func`1 getFields, System.Func`2 getValues) [0x0001a] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Utils/SQLHelper.cs:23 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.Insert (System.Collections.Generic.List`1 models) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:26 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x0013f] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:26 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:35:13</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.MySqlClient.MySqlException : Unable to connect to any of the specified MySQL hosts.</Message>
+                  <StackTrace>  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlConnection.Open () [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:36:16</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.MySqlClient.MySqlException : Unable to connect to any of the specified MySQL hosts.</Message>
+                  <StackTrace>  at MySql.Data.MySqlClient.NativeDriver.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.Driver.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlConnection.Open () [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:39:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Object reference not set to an instance of an object</Message>
+                  <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:46:06</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.MySqlClient.MySqlException : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Brown, 180, 11/11/1962 00:00:00),(0, Carl Downing, 190, 11/11/1972 00:00:00),(0,' at line 1</Message>
+                  <StackTrace>  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32&amp; affectedRow, System.Int32&amp; insertedId) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:47:00</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Connection refused</Message>
+                  <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:48:42</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.MySqlClient.MySqlException : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Brown, 180, 11/11/1962 00:00:00),(Carl Downing, 190, 11/11/1972 00:00:00),(Elgar' at line 1</Message>
+                  <StackTrace>  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32&amp; affectedRow, System.Int32&amp; insertedId) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T15:50:32</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 3.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:04:40</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 55.66ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:16:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:19:17</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:19:28</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:19:35</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:22:23</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:23:13</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:25:36</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:26:07</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:29:25</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:31:09</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:31:14</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Object reference not set to an instance of an object</Message>
+                  <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:39:37</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:39:50</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Object reference not set to an instance of an object</Message>
+                  <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:41:00</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00013] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:41:23</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:18:35</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.32ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:18:39</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.32ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:18:41</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Connection refused</Message>
+                  <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:23:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>1</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Assert.Equals should not be used for Assertions</Message>
+                  <StackTrace>  at NUnit.Framework.Assert.Equals (System.Object a, System.Object b) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x00102] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:78 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:24:14</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>1</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>  Expected: &lt;empty&gt;
+  But was:  &lt; &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt; &gt;
+</Message>
+                  <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsEmpty (IEnumerable collection) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x000fa] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:78 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:25:11</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:31:29</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>1</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>  Expected: &lt;empty&gt;
+  But was:  &lt; &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt;, &lt;ADODotNetAndMySQL.DAL.Models.Model&gt; &gt;
+</Message>
+                  <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsEmpty (IEnumerable collection) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQLTests.Test.TestInsert () [0x000f5] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:78 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+              <Tests />
+            </TestRecord>
+            <TestRecord Name="TestGetAll">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:05:49</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.MySqlClient.MySqlException : Unknown column 'SampleTable' in 'field list'</Message>
+                  <StackTrace>  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32&amp; affectedRow, System.Int32&amp; insertedId) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:07:08</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.MySqlClient.MySqlException : Unknown column 'SampleTable' in 'field list'</Message>
+                  <StackTrace>  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32&amp; affectedRow, System.Int32&amp; insertedId) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:07:26</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Object reference not set to an instance of an object</Message>
+                  <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:08:35</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.MySqlClient.MySqlException : Table 'DotNetOnLinuxExample.Name' doesn't exist</Message>
+                  <StackTrace>  at MySql.Data.MySqlClient.MySqlStream.ReadPacket () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.NativeDriver.GetResult (System.Int32&amp; affectedRow, System.Int32&amp; insertedId) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:09:10</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Object reference not set to an instance of an object</Message>
+                  <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:09:56</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:40 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:35 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:33 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:10:01</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:40 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:35 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:33 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:23:20</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Connection refused</Message>
+                  <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:38:34</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Cannot find table -1</Message>
+                  <StackTrace>  at System.Data.DataTableCollection.get_Item (Int32 index) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00030] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:39 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:33 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:38:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 94.70ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:42:08</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Cannot find table -1</Message>
+                  <StackTrace>  at System.Data.DataTableCollection.get_Item (Int32 index) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00030] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:39 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:35 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:42:34</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Cannot find table -1</Message>
+                  <StackTrace>  at System.Data.DataTableCollection.get_Item (Int32 index) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00030] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:39 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:35 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:42:57</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 27.81ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:49:41</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.ArgumentException : The column 'idSampleTable' does not belong to the table : SampleTable</Message>
+                  <StackTrace>  at System.Data.DataRow.get_Item (System.String columnName, DataRowVersion version) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.DataRow.get_Item (System.String columnName) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.PopulateModel (System.Data.DataRow dataRow) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:53 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00069] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:44 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:35 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:56:48</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.ArgumentException : The column 'idSampleTable' does not belong to the table : SampleTable</Message>
+                  <StackTrace>  at System.Data.DataRow.get_Item (System.String columnName, DataRowVersion version) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.DataRow.get_Item (System.String columnName) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.PopulateModel (System.Data.DataRow dataRow) [0x00000] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:53 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00069] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:44 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:35 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T16:57:38</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 22.72ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T17:31:24</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.26ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T17:40:21</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 8.90ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:16:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.InvalidOperationException : The source sequence is empty</Message>
+                  <StackTrace>  at System.Linq.Enumerable.First[Model] (IEnumerable`1 source) [0x00000] in &lt;filename unknown&gt;:0 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x0000d] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:74 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:16:18</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>MySql.Data.Types.MySqlConversionException : Unable to convert MySQL date/time value to System.DateTime</Message>
+                  <StackTrace>  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter:Fill (System.Data.DataSet,string)
+  at ADODotNetAndMySQL.DAL.Repositories.RepositoryBase.GetDataSet (System.String sqlCommand, System.String tableName) [0x00022] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs:56 
+  at ADODotNetAndMySQL.DAL.Repositories.ModelRepository.GetAll () [0x00017] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs:43 
+  at ADODotNetAndMySQLTests.Test.TestGetAll () [0x00006] in /PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day 8 ADO.NET &amp; MySQL/ADO.Net&amp;MySQL/ADO.Net&amp;MySQLTests/Test.cs:72 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:19:17</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+              <Tests />
+            </TestRecord>
+            <TestRecord Name="TestDelete">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:15:00</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 8.41ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:16:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:19:17</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:19:28</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:19:35</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:22:23</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.28ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:23:13</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:25:36</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:26:07</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.32ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:41:00</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T18:41:23</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:23:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:24:14</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:25:11</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-11-11T19:31:29</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.30ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>
