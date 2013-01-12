@@ -1,19 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ADO.Net&amp;MySQL/DAL/SQL/IModelSQLBuilderHelper.cs">
-    <Files>
-      <File FileName="ADO.Net&amp;MySQLTests/DBTests.cs" Line="58" Column="1" />
-      <File FileName="ADO.Net&amp;MySQLTests/SqlliteTests.cs" Line="26" Column="1" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/Repositories/ModelRepository.cs" Line="33" Column="10" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/Repositories/RepositoryBase.cs" Line="56" Column="37" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/Models/SampleTable.cs" Line="11" Column="3" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/SQL/SampleTableSQLBuilderHelper.cs" Line="7" Column="48" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/SQL/IModelSQLBuilderHelper.cs" Line="19" Column="23" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/SQL/SQLHelper.cs" Line="58" Column="176" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/ADOProviders/SqlliteADOProviderFactory.cs" Line="14" Column="47" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/ADOProviders/MySQLADOProviderFactory.cs" Line="17" Column="10" />
-      <File FileName="ADO.Net&amp;MySQL/DAL/SQL/SQLDefinition.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
@@ -22,13 +9,12 @@
               <Node name="ADOProviders" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True" />
-              <Node name="SQL" expanded="True">
-                <Node name="IModelSQLBuilderHelper.cs" selected="True" />
-              </Node>
+              <Node name="SQL" expanded="True" />
             </Node>
           </Node>
           <Node name="ADODotNetAndMySQLTests" expanded="True">
             <Node name="References" expanded="True" />
+            <Node name="DBTests.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -44,16 +30,7 @@
         <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="ADODotNetAndMySQLTests" expanded="True">
-            <Node name="ADODotNetAndMySQLTests" expanded="True">
-              <Node name="MySQLTests" expanded="True">
-                <Node name="TestCanDelete" selected="True" />
-              </Node>
-              <Node name="SqlliteTests" expanded="True" />
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

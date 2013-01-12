@@ -1,0 +1,49 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GenericsExample/StringExtensionMethods.cs/ParseAndTryParse.cs">
+    <Files>
+      <File FileName="GenericsExampleTests/EnumParseTests.cs" Line="10" Column="11" />
+      <File FileName="GenericsExampleTests/EnumParseWithDefaultTests.cs" Line="15" Column="3" />
+      <File FileName="GenericsExampleTests/EnumTryParseTests.cs" Line="3" Column="1" />
+      <File FileName="GenericsExampleTests/MeanCalculatorTests.cs" Line="24" Column="3" />
+      <File FileName="GenericsExampleTests/PrimativeTypeParseTests.cs" Line="5" Column="31" />
+      <File FileName="GenericsExampleTests/PrimativeTypeParseWithDefaultTests.cs" Line="5" Column="31" />
+      <File FileName="GenericsExampleTests/PrimativeTypeTryParseTests.cs" Line="10" Column="11" />
+      <File FileName="GenericsExample/Utilities/PrimativeTypeParsingBinder.cs" Line="15" Column="26" />
+      <File FileName="GenericsExample/SampleEnum.cs" Line="1" Column="1" />
+      <File FileName="GenericsExample/StringExtensionMethods.cs/ParseAndTryParse.cs" Line="30" Column="4" />
+      <File FileName="GenericsExample/MeanCalculator.cs" Line="15" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="GenericsExample" expanded="True">
+            <Node name="StringExtensionMethods.cs" expanded="True">
+              <Node name="ParseAndTryParse.cs" selected="True" />
+            </Node>
+            <Node name="Utilities" expanded="True" />
+          </Node>
+          <Node name="GenericsExampleTests" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/lukey/Documents/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/Day9GenericsExample/GenericsExample/GenericsExampleTests/PrimativeTypeTryParseTests.cs" line="13" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

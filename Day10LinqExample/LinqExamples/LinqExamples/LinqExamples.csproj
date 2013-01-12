@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB92FEDA-54D8-4A13-A61B-556352194BDE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LinqExamples</RootNamespace>
+    <AssemblyName>LinqExamples</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <Private>False</Private>
+      <Package>mono-nunit</Package>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SampleData\Person.cs" />
+    <Compile Include="SampleData\SampleDataProvider.cs" />
+    <Compile Include="SampleData\Gender.cs" />
+    <Compile Include="Operators\Filters.cs" />
+    <Compile Include="Operators\Projection.cs" />
+    <Compile Include="Operators\Partitioning.cs" />
+    <Compile Include="Operators\Ordering.cs" />
+    <Compile Include="Operators\Grouping.cs" />
+    <Compile Include="Operators\Conversions.cs" />
+    <Compile Include="Operators\Element.cs" />
+    <Compile Include="Operators\Generation.cs" />
+    <Compile Include="Utils\PersonSexComparer.cs" />
+    <Compile Include="Operators\Quantifiers.cs" />
+    <Compile Include="Operators\Set.cs" />
+    <Compile Include="Operators\Aggregate.cs" />
+    <Compile Include="SampleData\GenderDescriptor.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="SampleData\" />
+    <Folder Include="Operators\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+</Project>
