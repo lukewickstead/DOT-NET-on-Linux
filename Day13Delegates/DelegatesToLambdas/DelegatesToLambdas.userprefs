@@ -1,21 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DelegatesToLambdas/DelegatesToLambdaWithGlobalGenericsFunctions.cs">
-    <Files>
-      <File FileName="DelegatesToLambdas/ActionFuncAndPredicate.cs" Line="69" Column="28" />
-      <File FileName="DelegatesToLambdas/ContravarianceExample.cs" Line="31" Column="10" />
-      <File FileName="DelegatesToLambdas/CovarianceExample.cs" Line="48" Column="46" />
-      <File FileName="DelegatesToLambdas/DelegatesToLambda.cs" Line="53" Column="25" />
-      <File FileName="DelegatesToLambdas/DelegatesToLambdaWithGenerics.cs" Line="65" Column="28" />
-      <File FileName="DelegatesToLambdas/DelegatesToLambdaWithGlobalGenericsFunctions.cs" Line="54" Column="10" />
-      <File FileName="DelegatesToLambdas/EventExample.cs" Line="25" Column="23" />
-      <File FileName="DelegatesToLambdas/MulticastDelegateExample.cs" Line="24" Column="14" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="DelegatesToLambdas" expanded="True">
-            <Node name="DelegatesToLambdaWithGlobalGenericsFunctions.cs" selected="True" />
+            <Node name="ActionFuncAndPredicate.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -26,22 +16,10 @@
         <State />
       </Pad>
       <Pad Id="ConnectionManagerPad">
-        <State expanded="True" selected="True" />
+        <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="DelegatesToLambdas" expanded="True">
-            <Node name="SandBox" expanded="True">
-              <Node name="Tests" expanded="True">
-                <Node name="Delegates" expanded="True">
-                  <Node name="ActionFuncAndPredicate" expanded="True" />
-                  <Node name="DelegatesTestsWithGenerics" expanded="True" />
-                  <Node name="DelegatesToLambdaWithGlobalGenericsFunctions" expanded="True" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

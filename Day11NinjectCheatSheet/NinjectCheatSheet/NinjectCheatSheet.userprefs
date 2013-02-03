@@ -1,32 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectCheatSheet/DataModel/TestClasses/InjectWhenClassMemberTargetHas.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectCheatSheet/KernelModules/ContextualBindingModule.cs">
     <Files>
-      <File FileName="NinjectCheatSheet/KernelModules/WithMetadataModule.cs" Line="14" Column="70" />
-      <File FileName="NinjectCheatSheetTests/WithMetadataTest.cs" Line="25" Column="4" />
-      <File FileName="NinjectCheatSheet/DataModel/TestClasses/KnownC.cs" Line="5" Column="10" />
-      <File FileName="NinjectCheatSheet/DataModel/TestClasses/InjectWithIsSomething.cs" Line="12" Column="4" />
-      <File FileName="NinjectCheatSheet/DataModel/Attributes.cs" Line="1" Column="1" />
-      <File FileName="NinjectCheatSheet/DataModel/TestClasses/InjectWithIsNotSomething.cs" Line="12" Column="4" />
-      <File FileName="NinjectCheatSheet/Attributes/IsSomething.cs" Line="15" Column="3" />
-      <File FileName="NinjectCheatSheet/Attributes/IsNotSomething.cs" Line="11" Column="36" />
-      <File FileName="NinjectCheatSheetTests/UserDefinedConstructorTest.cs" Line="11" Column="1" />
-      <File FileName="NinjectCheatSheet/Attributes/WhenClassHas.cs" Line="9" Column="3" />
-      <File FileName="NinjectCheatSheet/Attributes/WhenTargetHas.cs" Line="9" Column="28" />
-      <File FileName="NinjectCheatSheet/Attributes/WhenMemberHas.cs" Line="14" Column="1" />
-      <File FileName="NinjectCheatSheet/DataModel/TestClasses/InjectWhenClassMemberTargetHas.cs" Line="14" Column="4" />
+      <File FileName="NinjectCheatSheetTests/ContextualBindingTest.cs" Line="10" Column="3" />
+      <File FileName="NinjectCheatSheet/KernelModules/ContextualBindingModule.cs" Line="7" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="NinjectCheatSheet" expanded="True">
-            <Node name="Attributes" expanded="True" />
-            <Node name="DataModel" expanded="True">
-              <Node name="TestClasses" expanded="True">
-                <Node name="InjectWhenClassMemberTargetHas.cs" selected="True" />
-              </Node>
+            <Node name="KernelModules" expanded="True">
+              <Node name="ContextualBindingModule.cs" selected="True" />
             </Node>
-            <Node name="KernelModules" expanded="True" />
           </Node>
           <Node name="NinjectCheatSheetTests" expanded="True" />
         </State>
@@ -38,18 +23,10 @@
         <State />
       </Pad>
       <Pad Id="ConnectionManagerPad">
-        <State expanded="True" selected="True" />
+        <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="NinjectCheatSheetTests" expanded="True">
-            <Node name="NinjectCheatSheetTests" expanded="True">
-              <Node name="WithMetadataTest" expanded="True">
-                <Node name="CanInjectWithMetaDataTest" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

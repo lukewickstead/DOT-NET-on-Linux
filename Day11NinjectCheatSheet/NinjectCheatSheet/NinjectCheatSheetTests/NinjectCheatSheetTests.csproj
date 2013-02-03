@@ -55,6 +55,7 @@
     <Compile Include="ConstructorArgumentTest.cs" />
     <Compile Include="BindToConstantTest.cs" />
     <Compile Include="NestedInjectionTest.cs" />
+    <Compile Include="ContextualBindingTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

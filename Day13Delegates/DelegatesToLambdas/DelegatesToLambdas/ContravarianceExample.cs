@@ -16,7 +16,9 @@ namespace SandBox.Tests.Delegates
     {
         // Define the delegate.
         public delegate void RaiseEventWithEventArgs(object sender, EventArgs e);
+
         public delegate void RaiseEventWithChildEventArgs(object sender, ChildEventArgs e);
+
 
         public static void DoWithEventArgs(object sender, EventArgs e)
         {
@@ -32,7 +34,6 @@ namespace SandBox.Tests.Delegates
             RaiseEventWithChildEventArgs raiseEventWithChildEventArgs = DoWithEventArgs;
             raiseEventWithChildEventArgs(this, new ChildEventArgs());
         }
-
     }
 }
 
