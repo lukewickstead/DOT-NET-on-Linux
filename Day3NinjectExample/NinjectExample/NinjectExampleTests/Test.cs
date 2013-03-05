@@ -1,67 +1,87 @@
-using System;
-using Ninject;
-using NUnit.Framework;
-using NinjectExample;
-using NinjectExample.Interfaces;
-using NinjectExample.Models;
-
+//-----------------------------------------------------------------------
+// <copyright file="Test.cs" >Copyright (c) ThereBNone </copyright>
+// <author>Luke Wickstead</author>
 namespace NinjectExampleTests
 {
-	[TestFixture()]
-	public class Test
-	{
+    using System;
+    using Ninject;
+    using NinjectExample;
+    using NinjectExample.Interfaces;
+    using NinjectExample.Models;
+    using NUnit.Framework;
 
-		private IKernel kernel;
+    /// <summary>
+    /// Test Class
+    /// </summary>
+    [TestFixture]
+    public class Test
+    {
+        /// <summary>
+        /// The kernel.
+        /// </summary>
+        private IKernel kernel;
 
-		[TestFixtureSetUp]
-		public void Init ()
-		{
-			kernel = InjectionFactory.Instance.kernel;
-		}
+        /// <summary>
+        /// Init this instance.
+        /// </summary>
+        [TestFixtureSetUp]
+        public void Init()
+        {
+            this.kernel = InjectionFactory.Instance.Kernel;
+        }
 
-		[Test()]
-		public void CanTestInterfaceInjection ()
-		{
+        /// <summary>
+        /// Determines whether this instance can test interface injection.
+        /// </summary>
+        [Test]
+        public void CanTestInterfaceInjection()
+        {
+            var simpleClass = this.kernel.Get<ISimpleClass>();
+            
+            Assert.IsInstanceOf<SimpleClass>(simpleClass);
+            Assert.AreEqual(simpleClass.WhoAmI(), "SimpleClass");
+        }
 
-			var myClass = kernel.Get<ISimpleClass>();
-			
-			Assert.IsInstanceOf<SimpleClass>(myClass);
-			Assert.AreEqual(myClass.WhoAmI(), "SimpleClass");
-		}
+        /// <summary>
+        /// Determines whether this instance can test injection with dependancy.
+        /// </summary>
+        [Test]
+        public void CanTestInjectionWithDependancy()
+        {
+            var classWithDep = this.kernel.Get<IClassWithDependancy>();
 
-		[Test()]
-		public void CanTestInjectionWithDependancy ()
-		{
-			var myClass = kernel.Get<IClassWithDependancy>();
+            Assert.IsInstanceOf<ClassWithDependancy>(classWithDep);
+            Assert.AreEqual(classWithDep.WhoAmI(), "ClassWithDependancy of SimpleClass");
 
-			Assert.IsInstanceOf<ClassWithDependancy>(myClass);
-			Assert.AreEqual(myClass.WhoAmI(), "ClassWithDependancy of SimpleClass");
+            Assert.IsInstanceOf<SimpleClass>(classWithDep.SimpleClass);
+            Assert.AreEqual(classWithDep.SimpleClass.WhoAmI(), "SimpleClass");
+        }
 
-			Assert.IsInstanceOf<SimpleClass>(myClass.SimpleClass);
-			Assert.AreEqual(myClass.SimpleClass.WhoAmI(), "SimpleClass");
-		}
+        /// <summary>
+        /// Determines whether this instance can test injection with constructor parameters.
+        /// </summary>
+        [Test]
+        public void CanTestInjectionWithConstructorParameters()
+        {
+            var classWithConst = this.kernel.Get<IClassWithConstructorParameters>();
 
-		
-		[Test()]
-		public void CanTestInjectionWithConstructorParameters ()
-		{
-			var myClass = kernel.Get<IClassWithConstructorParameters>();
+            Assert.IsInstanceOf<ClassWithConstructorParameters>(classWithConst);
+            Assert.AreEqual(classWithConst.WhoAmI(), "ClassWithConstructorParameters with messageOne:Hello and messageTwo:There");
+        }
 
-			Assert.IsInstanceOf<ClassWithConstructorParameters>(myClass);
-			Assert.AreEqual(myClass.WhoAmI(), "ClassWithConstructorParameters with messageOne:Hello and messageTwo:There");
-		}
+        /// <summary>
+        /// Determines whether this instance can test derrived class injecction.
+        /// </summary>
+        [Test]
+        public void CanTestDerrivedClassInjecction()
+        {
+            var classWithDep = this.kernel.Get<ClassWithDependancyAlso>();
 
-		[Test()]
-		public void CanTestDerrivedClassInjecction ()
-		{
-			var myClass = kernel.Get<ClassWithDependancyAlso>();
+            Assert.IsInstanceOf<ClassWithDependancyAlso>(classWithDep);
+            Assert.AreEqual(classWithDep.WhoAmI(), "ClassWithDependancyAlso of SimpleClassAlso");
 
-			Assert.IsInstanceOf<ClassWithDependancyAlso>(myClass);
-			Assert.AreEqual(myClass.WhoAmI(), "ClassWithDependancyAlso of SimpleClassAlso");
-
-			Assert.IsInstanceOf<SimpleClassAlso>(myClass.SimpleClass);
-			Assert.AreEqual(myClass.SimpleClass.WhoAmI(), "SimpleClassAlso");
-		}
-	}
+            Assert.IsInstanceOf<SimpleClassAlso>(classWithDep.SimpleClass);
+            Assert.AreEqual(classWithDep.SimpleClass.WhoAmI(), "SimpleClassAlso");
+        }
+    }
 }
-

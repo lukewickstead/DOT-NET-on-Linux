@@ -1,26 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectExample/Models/SimpleClassAlso.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectExample/Interfaces/IClassWithConstructorParameters.cs">
     <Files>
-      <File FileName="NinjectExampleTests/Test.cs" Line="18" Column="4" />
-      <File FileName="NinjectExample/Models/SimpleClass.cs" Line="15" Column="1" />
-      <File FileName="NinjectExample/Models/ClassWithDependancy.cs" Line="24" Column="1" />
-      <File FileName="NinjectExample/InjectionFactory.cs" Line="47" Column="97" />
-      <File FileName="NinjectExample/Models/ClassWithConstructorParameters.cs" Line="12" Column="4" />
-      <File FileName="NinjectExample/Interfaces/IClassWithConstructorParameters.cs" Line="7" Column="3" />
-      <File FileName="NinjectExample/Interfaces/ISimpleClass.cs" Line="3" Column="36" />
-      <File FileName="NinjectExample/Models/ClassWithDependancyAlso.cs" Line="6" Column="38" />
-      <File FileName="NinjectExample/Models/SimpleClassAlso.cs" Line="14" Column="1" />
+      <File FileName="NinjectExampleTests/Test.cs" Line="2" Column="25" />
+      <File FileName="NinjectExample/Models/SimpleClass.cs" Line="2" Column="32" />
+      <File FileName="NinjectExample/Models/ClassWithDependancy.cs" Line="2" Column="40" />
+      <File FileName="NinjectExample/InjectionFactory.cs" Line="2" Column="37" />
+      <File FileName="NinjectExample/Models/ClassWithConstructorParameters.cs" Line="2" Column="51" />
+      <File FileName="NinjectExample/Interfaces/IClassWithConstructorParameters.cs" Line="8" Column="18" />
+      <File FileName="NinjectExample/Interfaces/ISimpleClass.cs" Line="2" Column="33" />
+      <File FileName="NinjectExample/Models/ClassWithDependancyAlso.cs" Line="2" Column="44" />
+      <File FileName="NinjectExample/Models/SimpleClassAlso.cs" Line="2" Column="21" />
+      <File FileName="NinjectExample/Interfaces/IClassWithDependancy.cs" Line="2" Column="41" />
+      <File FileName="NinjectExample/AssemblyInfo.cs" Line="2" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="NinjectExample" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="Interfaces" expanded="True" />
-            <Node name="Models" expanded="True">
-              <Node name="SimpleClassAlso.cs" selected="True" />
+            <Node name="Interfaces" expanded="True">
+              <Node name="IClassWithConstructorParameters.cs" selected="True" />
             </Node>
+            <Node name="Models" expanded="True" />
           </Node>
           <Node name="NinjectExampleTests" expanded="True" />
         </State>
@@ -31,14 +33,11 @@
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True">
-          <Node name="NinjectExampleTests" expanded="True">
-            <Node name="NinjectExampleTests" expanded="True">
-              <Node name="Test" expanded="True" />
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -48,4 +47,7 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.BookmarkService.Bookmarks>
+    <BookmarkCollection />
+  </MonoDevelop.Ide.BookmarkService.Bookmarks>
 </Properties>

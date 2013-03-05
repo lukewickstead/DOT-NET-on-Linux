@@ -1,21 +1,37 @@
-using System;
-using System.Linq;
-using System.Collections.Generic;
-
+//-----------------------------------------------------------------------
+// <copyright file="Mean.cs" >Copyright (c) ThereBNone </copyright>
+// <author>Luke Wickstead</author>
 namespace MathsLibrary.Average
 {
-	public class Mean
-	{
-		public static decimal Calculate(List<decimal> data)
-		{
-			if ( data == null  )
-				throw new ArgumentNullException();
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
-			if ( data.Count == 0 )
-				throw new ArgumentException("No data provided");
+    /// <summary>
+    /// Mean calcuation
+    /// </summary>
+    public class Mean
+    {
+        /// <summary>
+        /// Calculate the specified  meandata.
+        /// </summary>
+        /// <param name='data'>
+        /// Data to have the mean calculated
+        /// </param>
+        /// <returns>Mean value</returns>
+        public static decimal Calculate(List<decimal> data)
+        {
+            if (data == null)
+            {
+                throw new ArgumentNullException();
+            }
 
-			return data.Sum() / data.Count;
-		}
-	}
+            if (data.Count == 0)
+            {
+                throw new ArgumentException("No data provided");
+            }
+
+            return data.Sum() / data.Count;
+        }
+    }
 }
-

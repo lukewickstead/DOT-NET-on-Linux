@@ -1,42 +1,60 @@
-using System;
-using System.Collections.Generic;
-using MathsLibrary.Average;
-using NUnit.Framework;
+//-----------------------------------------------------------------------
+// <copyright file="ModeTests.cs" >Copyright (c) ThereBNone </copyright>
+// <author>Luke Wickstead</author>
 
 namespace MathsLibrary.Tests
 {
-	[TestFixture()]
-	public class ModeTests
-	{
-		[Test()]
-		public void CanCalculateModeWithNoGrouping ()
-		{
-			var data = new List<decimal>{ 1.1m, 2.2m, 2.2m, 3.3m, 4.4m, 5.5m };
+    using System;
+    using System.Collections.Generic;
+    using MathsLibrary.Average;
+    using NUnit.Framework;
 
-			var modeValue = Mode.Calculate (data);
+    /// <summary>
+    /// Mode tests.
+    /// </summary>
+    [TestFixture]
+    public class ModeTests
+    {
+        /// <summary>
+        /// Determines whether this instance can calculate mode with no grouping.
+        /// </summary>
+        [Test]
+        public void CanCalculateModeWithNoGrouping()
+        {
+            var data = new List<decimal> { 1.1m, 2.2m, 2.2m, 3.3m, 4.4m, 5.5m };
 
-			Assert.AreEqual (modeValue, 2.2);
-		}
+            var modeValue = Mode.Calculate(data);
 
-		[Test()]
-		public void CanNotCalculateModewithGrouping()
-		{
-			var data = new List<decimal>{ 1.1m, 2.2m };
+            Assert.AreEqual(modeValue, 2.2);
+        }
 
-			Assert.Throws<NotImplementedException>(() => Mode.Calculate(data));	
-		}
+        /// <summary>
+        /// Determines whether this instance can not calculate modewith grouping.
+        /// </summary>
+        [Test]
+        public void CanNotCalculateModewithGrouping()
+        {
+            var data = new List<decimal> { 1.1m, 2.2m };
 
-		[Test()]
-		public void WillThrowArgumentNullExceptionWhenNull()
-		{
-			Assert.Throws<ArgumentNullException>(() => Mode.Calculate(null));	
-		}
+            Assert.Throws<NotImplementedException>(() => Mode.Calculate(data)); 
+        }
 
-		[Test()]
-		public void WillThrowArgumentExceptionWhenEmptyCollection()
-		{
-			Assert.Throws<ArgumentException>(() => Mode.Calculate(new List<decimal>()));		
-		}	
-	}
+        /// <summary>
+        /// Wills the throw argument null exception when null.
+        /// </summary>
+        [Test]
+        public void WillThrowArgumentNullExceptionWhenNull()
+        {
+            Assert.Throws<ArgumentNullException>(() => Mode.Calculate(null));   
+        }
+
+        /// <summary>
+        /// Wills the throw argument exception when empty collection.
+        /// </summary>
+        [Test]
+        public void WillThrowArgumentExceptionWhenEmptyCollection()
+        {
+            Assert.Throws<ArgumentException>(() => Mode.Calculate(new List<decimal>()));        
+        }   
+    }
 }
-

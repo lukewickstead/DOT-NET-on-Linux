@@ -1,6 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DelegatesToLambdas/ActionFuncAndPredicate.cs">
+    <Files>
+      <File FileName="DelegatesToLambdas/ActionFuncAndPredicate.cs" Line="3" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
@@ -27,4 +30,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.BookmarkService.Bookmarks>
+    <BookmarkCollection />
+  </MonoDevelop.Ide.BookmarkService.Bookmarks>
 </Properties>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary", "MathsLibrary\MathsLibrary.csproj", "{29FF6FCD-EF77-4319-BC5F-F8E15893F663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary.Tests", "MathsLibrary\MathsLibrary.Tests\MathsLibrary.Tests\MathsLibrary.Tests.csproj", "{A21E778D-89AA-4E9A-90EC-369BA1330734}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary.Tests", "..\MathsLibrary.Tests\MathsLibrary.Tests\MathsLibrary.Tests.csproj", "{A21E778D-89AA-4E9A-90EC-369BA1330734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

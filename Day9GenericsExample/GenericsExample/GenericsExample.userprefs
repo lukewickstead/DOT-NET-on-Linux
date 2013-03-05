@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GenericsExampleTests/SerialisationTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GenericsExample/Serialisation/Serializer.cs">
     <Files>
       <File FileName="GenericsExampleTests/SerialisationTests.cs" Line="11" Column="39" />
       <File FileName="GenericsExample/Serialisation/Serializer.cs" Line="18" Column="47" />
@@ -9,13 +9,13 @@
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="GenericsExample" expanded="True">
-            <Node name="Serialisation" expanded="True" />
+            <Node name="Serialisation" expanded="True">
+              <Node name="Serializer.cs" selected="True" />
+            </Node>
             <Node name="StringExtensionMethods.cs" expanded="True" />
             <Node name="Utilities" expanded="True" />
           </Node>
-          <Node name="GenericsExampleTests" expanded="True">
-            <Node name="SerialisationTests.cs" selected="True" />
-          </Node>
+          <Node name="GenericsExampleTests" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">

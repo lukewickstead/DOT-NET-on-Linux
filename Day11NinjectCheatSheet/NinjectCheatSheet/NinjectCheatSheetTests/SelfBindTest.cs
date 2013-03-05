@@ -15,6 +15,8 @@ namespace NinjectCheatSheetTests
 		public void CanSelfBind ()
 		{
 			IKernel aKernel = new StandardKernel();
+
+			aKernel.Bind<SelfBindExample>().To<SelfBindExample>();
 			
 			var aClass = aKernel.Get<SelfBindExample>();
 

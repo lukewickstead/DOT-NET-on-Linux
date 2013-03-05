@@ -1,19 +1,30 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectCheatSheet/KernelModules/ContextualBindingModule.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectCheatSheetTests/WithMetadataTest.cs">
     <Files>
-      <File FileName="NinjectCheatSheetTests/ContextualBindingTest.cs" Line="10" Column="3" />
-      <File FileName="NinjectCheatSheet/KernelModules/ContextualBindingModule.cs" Line="7" Column="38" />
+      <File FileName="NinjectCheatSheet/Attributes/IsSomething.cs" Line="16" Column="1" />
+      <File FileName="NinjectCheatSheet/DataModel/TestClasses/InjectWithIsSomething.cs" Line="6" Column="2" />
+      <File FileName="NinjectCheatSheet/Attributes/IsNotSomething.cs" Line="10" Column="3" />
+      <File FileName="NinjectCheatSheet/DataModel/TestClasses/InjectWithIsNotSomething.cs" Line="14" Column="4" />
+      <File FileName="NinjectCheatSheet/KernelModules/DerrivedAtrributeModule.cs" Line="13" Column="1" />
+      <File FileName="NinjectCheatSheet/KernelModules/WithMetadataModule.cs" Line="8" Column="29" />
+      <File FileName="NinjectCheatSheet/DataModel/TestClasses/KnownC.cs" Line="5" Column="2" />
+      <File FileName="NinjectCheatSheetTests/WithMetadataTest.cs" Line="24" Column="67" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="NinjectCheatSheet" expanded="True">
-            <Node name="KernelModules" expanded="True">
-              <Node name="ContextualBindingModule.cs" selected="True" />
+            <Node name="Attributes" expanded="True" />
+            <Node name="DataModel" expanded="True">
+              <Node name="ExampleClasses" expanded="True" />
+              <Node name="TestClasses" expanded="True" />
             </Node>
+            <Node name="KernelModules" expanded="True" />
           </Node>
-          <Node name="NinjectCheatSheetTests" expanded="True" />
+          <Node name="NinjectCheatSheetTests" expanded="True">
+            <Node name="WithMetadataTest.cs" selected="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -26,7 +37,7 @@
         <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" />
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -42,4 +53,7 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.BookmarkService.Bookmarks>
+    <BookmarkCollection />
+  </MonoDevelop.Ide.BookmarkService.Bookmarks>
 </Properties>

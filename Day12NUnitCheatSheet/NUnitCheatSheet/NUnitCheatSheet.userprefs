@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NUnitCheatSheet/NUnitCheatSheet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../../Blog/XUnitCheatSheet.cs">
     <Files>
-      <File FileName="NUnitCheatSheet/NUnitCheatSheet.cs" Line="142" Column="1" />
+      <File FileName="../../../../../Notes/UnitTesting/NUnitCheatSheet.cs" Line="531" Column="3" />
+      <File FileName="NUnitCheatSheet/NUnitCheatSheet.cs" Line="340" Column="77" />
+      <File FileName="../../../../../../../Blog/XUnitCheatSheet.cs" Line="16" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,19 +22,10 @@
         <State />
       </Pad>
       <Pad Id="ConnectionManagerPad">
-        <State expanded="True" selected="True" />
+        <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="NUnitCheatSheet" expanded="True">
-            <Node name="NUnitCheatSheet" expanded="True">
-              <Node name="Test" expanded="True">
-                <Node name="RandomAttributeTest" expanded="True" selected="True" />
-                <Node name="TestCaseSourceTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
