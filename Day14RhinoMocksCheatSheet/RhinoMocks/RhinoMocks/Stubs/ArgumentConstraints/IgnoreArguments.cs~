@@ -1,0 +1,21 @@
+namespace RhinoMocksExample.Stubs.ArgumentConstraints
+{
+    using System;
+    using NUnit.Framework;
+    using Rhino.Mocks;
+    using RhinoMocksExample.Model;
+
+    [TestFixture]
+    public class IgnoreArguments
+    {
+        [Test]
+        public void IgnoreArgumentsTest()
+        {
+            var sut = MockRepository.GenerateStub<ISimpleModel>();
+            sut.Stub(x => x.Do(Arg<int>.Is.Equal(1))).IgnoreArguments().Return(1);
+       
+            Assert.That(sut.Do(10).Equals(1));
+            Assert.That(sut.Do(-10).Equals(1));
+        }
+    }
+}

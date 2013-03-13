@@ -72,48 +72,6 @@ namespace LinqExamples
 
 			Assert.False (allMale);
 			Assert.True (allGenderKnown);
-		}
-
-		[Test()]
-		public void AllGrouped_Linq ()
-		{
-
-			var isAll = from p in people
-				group p by p.Gender into genders
-				where genders.All( x => x.Children.All (child => child.Gender == Gender.Female))							         
-				select new { Gender = genders.Key, Value = genders};
-		
-
-			foreach (var x in isAll) { 	var y = x; }
-
-			//Assert.AreEqual (1, isAll.Where (x => x.Gender == Gender.Female).Select (x => x.Count));
-			Assert.AreEqual (1, isAll.Where (x => x.Gender == Gender.Male).Select (y => y.Value));
-			Assert.AreEqual (2, isAll.Where (x => x.Gender == Gender.Female).Select (y => y.Value));
-
-		
-
-			// All meet criteria
-			//var allMale = people.All (x => x.Gender == Gender.Male);
-			//var allGenderKnown = people.All (x => x.Gender != Gender.Unknown);
-
-			//Assert.False (allMale);
-			//Assert.True (allGenderKnown);
-		}
-
-//		[Test()]
-//		public void All_Linq ()
-//		{
-//			// All meet criteria
-//			var allMale = (from p in people
-//						    where p.All (y => y == Gender.Male)
-//			                select p).Count () > 0;
-//
-//			var allGenderKnown = (from p in people
-//						    	   where p.All (y => y.Gender != Gender.Unknown)
-//			                	   select p).Count () > 0;
-//
-//			Assert.False (allMale);
-//			Assert.True (allGenderKnown);
-//		}
+		}		
 	}
 }

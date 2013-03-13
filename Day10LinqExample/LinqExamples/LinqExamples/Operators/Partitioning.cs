@@ -54,9 +54,9 @@ namespace LinqExamples
 		{
 			// Take all but the first 4 people
 			var allButFirstFour = people.Skip (4);
-			Assert.AreEqual (4, allButFirstFour.Count ());
-			Assert.AreEqual ("John", allButFirstFour.First ().Name);
-			Assert.AreEqual ("Sara", allButFirstFour.Last ().Name);
+			Assert.AreEqual (3, allButFirstFour.Count ());
+			Assert.AreEqual ("Jullius", allButFirstFour.First ().Name);
+			Assert.AreEqual ("George", allButFirstFour.Last ().Name);
 		}
 
 		[Test()]

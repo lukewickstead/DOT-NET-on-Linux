@@ -90,5 +90,14 @@ namespace LinqExamples
 			Assert.AreEqual ("Jane", samplePeople.Last ().Value.First ().Name);
 			Assert.AreEqual ("Sara", samplePeople.Last ().Value.Last ().Name);			
 		}
+
+        [Test()]
+        public void MultipleGroup()
+        {
+            var samplePeople = people.GroupBy (key => new { key.Gender, key.Age},
+            (key, group ) => new { key.Gender, key.Age, Count = group.Count()});
+
+            Assert.AreEqual (7, samplePeople.Count ());
+        }
 	}
 }

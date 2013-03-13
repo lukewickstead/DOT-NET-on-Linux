@@ -4,7 +4,7 @@
     <Files>
       <File FileName="RhinoMocksExample/IModelRepository.cs" Line="8" Column="3" />
       <File FileName="RhinoMocksExample/ModelRepository.cs" Line="11" Column="3" />
-      <File FileName="../RhinoMocksExampleTests/ModelCreatorTests.cs" Line="82" Column="31" />
+      <File FileName="../RhinoMocksExampleTests/ModelCreatorTests.cs" Line="78" Column="40" />
       <File FileName="RhinoMocksExample/ModelCreator.cs" Line="26" Column="2" />
     </Files>
     <Pads>
@@ -27,18 +27,10 @@
         </State>
       </Pad>
       <Pad Id="ConnectionManagerPad">
-        <State expanded="True" selected="True" />
+        <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="RhinoMocksExampleTests" expanded="True">
-            <Node name="RhinoMocksExampleTests" expanded="True">
-              <Node name="ModelCreatorTests" expanded="True">
-                <Node name="CanMockRemove" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -46,4 +38,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.BookmarkService.Bookmarks>
+    <BookmarkCollection />
+  </MonoDevelop.Ide.BookmarkService.Bookmarks>
 </Properties>

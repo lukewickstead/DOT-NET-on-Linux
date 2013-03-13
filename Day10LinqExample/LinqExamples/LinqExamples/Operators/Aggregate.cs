@@ -128,7 +128,6 @@ namespace LinqExamples
 
 			Assert.AreEqual (5, children.Where( x => x.Gender == Gender.Male).FirstOrDefault().Value);
 			Assert.AreEqual (2, children.Where( x => x.Gender == Gender.Female).FirstOrDefault().Value);
-			Assert.IsTrue(false);
 		}
 
 		[Test()]

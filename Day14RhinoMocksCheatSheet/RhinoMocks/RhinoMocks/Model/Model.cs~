@@ -1,0 +1,11 @@
+using System;
+
+namespace RhinoMocksExample.Model
+{
+	public struct AnotherModel
+	{
+		public int FieldA;
+		public string FieldB;
+	}
+}
+

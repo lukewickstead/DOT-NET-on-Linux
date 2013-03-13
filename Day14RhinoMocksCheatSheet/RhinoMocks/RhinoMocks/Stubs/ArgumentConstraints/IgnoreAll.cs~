@@ -1,0 +1,30 @@
+// <copyright file="IgnoreAll.cs" company="Fluffy Teq">
+//    Copyright (c) 2013 . All rights reserved.
+// </copyright>
+// -----------------------------------------------------------------------
+using System;
+using NUnit.Framework;
+
+namespace RhinoMocks.Stubs.ArgumentConstraints
+{
+    using System;
+    using NUnit.Framework;
+    using Rhino.Mocks;
+    using RhinoMocksExample.Model;
+
+    [TestFixture()]
+    public class IgnoreAll
+    {
+
+        [Test()]
+        public void TestCase()
+        {
+            var sut = MockRepository.GenerateStub<ISimpleModel>();
+            sut.Stub(x => x.Do(Arg<int>.Is.Equal(1))).IgnoreArguments().Return(1);
+       
+            Assert.That(sut.Do(10).Equals(1));
+            Assert.That(sut.Do(-10).Equals(1));
+        }
+    }
+}
+

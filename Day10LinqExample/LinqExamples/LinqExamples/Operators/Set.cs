@@ -183,9 +183,7 @@ namespace LinqExamples
 			// Concat all elements
 			var groupOne = new List<int> (){ 1,2,3,4,5};
 			var groupTwo = new List<int> (){4,5,6,7};
-			var groupOneQ = from g1 in groupOne select g1;
-			var groupTwoQ = from g2 in groupTwo select g2;
-
+			
 			var groupBoth = groupOne.Concat(groupTwo);
 			var groupBothOrdered = from g in groupBoth
 								   orderby g

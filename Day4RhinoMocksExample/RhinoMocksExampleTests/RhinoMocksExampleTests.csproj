@@ -46,10 +46,4 @@
     <Compile Include="ModelCreatorTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\RhinoMocksExample\RhinoMocksExample\RhinoMocksExample.csproj">
-      <Project>{C97F25D9-459C-4911-A6CA-9943D4D02E4C}</Project>
-      <Name>RhinoMocksExample</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
