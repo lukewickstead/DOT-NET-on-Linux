@@ -3,6 +3,15 @@
 The source code contained in this repositority is from the blog http://lukewickstead.wordpress.com
 
 
+*** The Book
+
+The source code the my book concise C# is contained here in this repository.
+
+The book is available on Amazon:
+
+http://www.amazon.co.uk/Concise-C-Luke-Wickstead-ebook/dp/B00HP4BN82/ref=sr_1_1?ie=UTF8&qid=1389440178&sr=8-1&keywords=concise+C%23
+
+
 *** Overview
 
 The code can be split into three sections
