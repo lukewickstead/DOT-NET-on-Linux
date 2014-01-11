@@ -1,0 +1,10 @@
+/home/lukey/Downloads/AppDomainEvents/AppDomainEvents/obj/x86/Debug/.NETFramework,Version=v4.0,Profile=Client.AssemblyAttribute.cs
+/home/lukey/Downloads/AppDomainEvents/AppDomainEvents/bin/Debug/AppDomainEvents.exe.mdb
+/home/lukey/Downloads/AppDomainEvents/AppDomainEvents/bin/Debug/AppDomainEvents.exe
+/home/lukey/Downloads/AppDomainEvents/AppDomainEvents/obj/x86/Debug/AppDomainEvents.exe
+/home/lukey/Downloads/AppDomainEvents/AppDomainEvents/obj/x86/Debug/AppDomainEvents.exe.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/AppDomainEvents/AppDomainEvents/obj/x86/Debug/.NETFramework,Version=v4.0,Profile=Client.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/AppDomainEvents/AppDomainEvents/bin/Debug/AppDomainEvents.exe.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/AppDomainEvents/AppDomainEvents/bin/Debug/AppDomainEvents.exe
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/AppDomainEvents/AppDomainEvents/obj/x86/Debug/AppDomainEvents.exe
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/AppDomainEvents/AppDomainEvents/obj/x86/Debug/AppDomainEvents.exe.mdb

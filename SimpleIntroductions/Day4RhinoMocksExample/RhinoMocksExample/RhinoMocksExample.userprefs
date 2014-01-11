@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../RhinoMocksExampleTests/ModelCreatorTests.cs">
+    <Files>
+      <File FileName="RhinoMocksExample/IModelRepository.cs" Line="1" Column="1" />
+      <File FileName="RhinoMocksExample/ModelRepository.cs" Line="1" Column="1" />
+      <File FileName="../RhinoMocksExampleTests/ModelCreatorTests.cs" Line="17" Column="32" />
+      <File FileName="RhinoMocksExample/ModelCreator.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.BookmarkService.Bookmarks>
+    <BookmarkCollection />
+  </MonoDevelop.Ide.BookmarkService.Bookmarks>
+</Properties>

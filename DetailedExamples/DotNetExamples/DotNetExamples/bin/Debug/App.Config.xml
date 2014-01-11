@@ -1,0 +1,16 @@
+<!-- App.Config is only picked up from exe. Move this to machine.config for testing -->
+
+<!-- How to install, secure and confgiure an initial MySql DB: http://lukewickstead.wordpress.com/2012/11/05/day-4-dot-net-on-linux-installing-and-securing-mysql/ -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<appSettings>
+		<add key="TheString" value="AString" />
+		<add key="TheInt" value="1" />
+	</appSettings>
+	<connectionStrings>   
+		<add name="MyDatabase" 
+			providerName="MySql.Data.MySQLClient"
+			connectionString="Server=localhost;Database=MyDB;User ID=Me;Password=MyPassword" />
+	</connectionStrings>
+</configuration>

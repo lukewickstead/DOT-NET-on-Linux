@@ -1,0 +1,47 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ADODotNetAndMySQL" expanded="True">
+            <Node name="DAL" expanded="True">
+              <Node name="ADOProviders" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="SQL" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="ADODotNetAndMySQLTests" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="DBTests.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>dataTable</Value>
+        </State>
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day8ADOExample/ADOExample/ADO.Net&amp;MySQLTests/DBTests.cs" line="58" />
+      <Breakpoint file="/PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day8ADOExample/ADOExample/ADO.Net&amp;MySQLTests/DBTests.cs" line="46" />
+      <Breakpoint file="/PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day8ADOExample/ADOExample/ADO.Net&amp;MySQLTests/DBTests.cs" line="78" />
+      <Breakpoint file="/PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day8ADOExample/ADOExample/ADO.Net&amp;MySQLTests/DBTests.cs" line="94" />
+      <Breakpoint file="/PersonalData/DevProjects/SandBox/Git/DOT-NET-on-Linux/Day8ADOExample/ADOExample/ADO.Net&amp;MySQLTests/DBTests.cs" line="112" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

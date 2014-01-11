@@ -1,0 +1,1 @@
+/home/lukey/Dropbox/Development/SandBox/Playdough/ConciseC#Misc/TheBasics/TheBasics/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs

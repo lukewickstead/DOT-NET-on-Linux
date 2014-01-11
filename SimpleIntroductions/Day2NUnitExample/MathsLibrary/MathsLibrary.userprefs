@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../MathsLibrary.Tests/MathsLibrary.Tests/Average/MedianTests.cs">
+    <Files>
+      <File FileName="MathsLibrary/Average/Mean.cs" Line="1" Column="1" />
+      <File FileName="MathsLibrary/Average/Median.cs" Line="1" Column="1" />
+      <File FileName="MathsLibrary/Average/Mode.cs" Line="1" Column="1" />
+      <File FileName="../MathsLibrary.Tests/MathsLibrary.Tests/Average/MeanTests.cs" Line="1" Column="1" />
+      <File FileName="../MathsLibrary.Tests/MathsLibrary.Tests/Average/MedianTests.cs" Line="49" Column="20" />
+      <File FileName="../MathsLibrary.Tests/MathsLibrary.Tests/Average/ModeTests.cs" Line="1" Column="1" />
+      <File FileName="MathsLibrary/AssemblyInfo.cs" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux2/Day2NUnitExample/MathsLibrary/MathsLibrary/MathsLibrary.Tests/MathsLibrary.Tests/Average/MeanTests.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.BookmarkService.Bookmarks>
+    <BookmarkCollection />
+  </MonoDevelop.Ide.BookmarkService.Bookmarks>
+</Properties>

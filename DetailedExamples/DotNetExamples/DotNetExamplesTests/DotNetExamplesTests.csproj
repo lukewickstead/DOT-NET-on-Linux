@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3959A1E-E86A-4403-B83A-EDA2BEF665A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>DotNetExamplesTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Ninject">
+      <HintPath>..\..\..\ThirdParty\Ninject-3.0.1.10-release-mono-4.0\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\..\..\ThirdParty\Rhino.Mocks-3.6-Build-21\Rhino.Mocks.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Advanced\" />
+    <Folder Include="Advanced\AdvancedFeatures\" />
+    <Folder Include="AssembliesReflectionSecurity\" />
+    <Folder Include="Advanced\Attributes\" />
+    <Folder Include="Advanced\Streams\" />
+    <Folder Include="Advanced\Serialization\" />
+    <Folder Include="Advanced\XML\" />
+    <Folder Include="AssembliesReflectionSecurity\Assemblies\" />
+    <Folder Include="AssembliesReflectionSecurity\Reflection\" />
+    <Folder Include="MultiThreading\" />
+    <Folder Include="MultiThreading\Spawning\" />
+    <Folder Include="MultiThreading\ThreadSynchronization\" />
+    <Folder Include="MultiThreading\ProcessAppDomains\" />
+    <Folder Include="MultiThreading\ConcurrentCollections\" />
+    <Folder Include="AssembliesReflectionSecurity\Security\" />
+    <Folder Include="ADO\" />
+    <Folder Include="ADO\Connections\" />
+    <Folder Include="ADO\ConnectedLayer\" />
+    <Folder Include="ADO\DisconnectedLayer\" />
+    <Folder Include="TestingMoqingDebugging\" />
+    <Folder Include="TestingMoqingDebugging\Debugging\" />
+    <Folder Include="Advanced\Generics\" />
+    <Folder Include="Advanced\Linq\" />
+    <Folder Include="Advanced\Linq\Operators\" />
+    <Folder Include="Advanced\Linq\SampleData\" />
+    <Folder Include="Advanced\Linq\Utils\" />
+    <Folder Include="TestingMoqingDebugging\NInject\" />
+    <Folder Include="TestingMoqingDebugging\RhinoMocks\" />
+    <Folder Include="TestingMoqingDebugging\RhinoMocks\Mocks\" />
+    <Folder Include="TestingMoqingDebugging\RhinoMocks\Stubs\" />
+    <Folder Include="TestingMoqingDebugging\RhinoMocks\Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Advanced\AdvancedFeatures\CheckedUncheckedExampleTest.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\StringExtensionsTests.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\OperatorOverloadExampleTests.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\NullableExampleTest.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\LazyLoadExampleTest.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\IndexedMethodExampleTest.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\AnonymoustTypes.cs" />
+    <Compile Include="AssembliesReflectionSecurity\DynamicRuntime\DynamicTypeExampleTests.cs" />
+    <Compile Include="Advanced\RegularExspressions\RegularExspressionTests.cs" />
+    <Compile Include="Advanced\Attributes\AttributesExampleTests.cs" />
+    <Compile Include="Advanced\Collections\CollectionInitialization.cs" />
+    <Compile Include="Advanced\Collections\ArrayExampleTests.cs" />
+    <Compile Include="Advanced\Collections\ArrayListExampleTests.cs" />
+    <Compile Include="Advanced\Collections\DictionaryExampleTests.cs" />
+    <Compile Include="Advanced\Collections\HashSetExampleTests.cs" />
+    <Compile Include="Advanced\Collections\ListExampleTests.cs" />
+    <Compile Include="Advanced\Collections\ObservableCollectionExampleTests.cs" />
+    <Compile Include="Advanced\Collections\QueueExampleTests.cs" />
+    <Compile Include="Advanced\Collections\SortedSetExampleTests.cs" />
+    <Compile Include="Advanced\Collections\StackExampleTests.cs" />
+    <Compile Include="Advanced\Streams\BinaryReaderWriterTests.cs" />
+    <Compile Include="Advanced\Streams\DirectoryExampleTests.cs" />
+    <Compile Include="Advanced\Streams\GZipStreamExampleTests.cs" />
+    <Compile Include="Advanced\Streams\DirectoryInfoExampleTests.cs" />
+    <Compile Include="Advanced\Streams\DriveInfoExampleTests.cs" />
+    <Compile Include="Advanced\Streams\FileExampleTests.cs" />
+    <Compile Include="Advanced\Streams\FileStreamExampleTests.cs" />
+    <Compile Include="Advanced\Streams\PathExampleTests.cs" />
+    <Compile Include="Advanced\Streams\StreamReaderWriterExampleTests.cs" />
+    <Compile Include="Advanced\Streams\StringReaderWriterExampleTests.cs" />
+    <Compile Include="Advanced\Streams\HTTPWebRequestExampleTest.cs" />
+    <Compile Include="Advanced\Streams\FileSystemWatcherExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\BinaryFormatterExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\DataContractJsonSerializerExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\DataContractSerializerExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\SoapFormatterExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\XMLSerializerExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\JavaScriptSerializerExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\SerializeEventsExampleTests.cs" />
+    <Compile Include="Advanced\Serialization\ExampleISerializableTests.cs" />
+    <Compile Include="Advanced\XML\BuildLoadSaveParseExampleTests.cs" />
+    <Compile Include="Advanced\XML\HydrationExampleTests.cs" />
+    <Compile Include="Advanced\XML\LinqToXMLExampleTests.cs" />
+    <Compile Include="Advanced\XML\VAlidateXMLExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Assemblies\AppSettingsReaderExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Assemblies\ConfigurationManagerExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Reflection\ReflectionExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Reflection\DynamicLoadingExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\AsynchronousDelegatesExamplesTests.cs" />
+    <Compile Include="MultiThreading\Spawning\ParameterizedThreadStartExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\ThreadStartExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\TimerExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\ThreadPoolExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\ThreadPoolCancelExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\TaskExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\ParameterizedThreadStartCancelExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\ParallelExampleTests.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\AutoResetEventExampleTests.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\InterlockedExampleTests.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\LockRegionTests.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\MonitorExampleTests.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\ThreadJoinExampleTests.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\SynchronizationAttributeExampleTests.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\ThreadStaticLocalExampleTest.cs" />
+    <Compile Include="MultiThreading\Spawning\AsyncExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\GetStringAsyncExampleTest.cs" />
+    <Compile Include="MultiThreading\Spawning\FileIOAsyncExampleTests.cs" />
+    <Compile Include="MultiThreading\ProcessAppDomains\SimpleAppDomainExampleTests.cs" />
+    <Compile Include="MultiThreading\ProcessAppDomains\ThreadBasicsTests.cs" />
+    <Compile Include="MultiThreading\ProcessAppDomains\ContextBoundObjectExampleTests.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\BlockingCollectionExampleTests.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentBagTests.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentDictionaryExampleTests.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentQueueExampleTests.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentStackExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\AESEncrptionExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\RSAEncryptionExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\SHA1ManagedExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\SHA256ExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\X509ExampleTests.cs" />
+    <Compile Include="MultiThreading\Spawning\PLINQExampleTests.cs" />
+    <Compile Include="MultiThreading\ProcessAppDomains\ProcessExampleTests.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\ToHashTest.cs" />
+    <Compile Include="ADO\Connections\ConfigurationManagerExampleADOTests.cs" />
+    <Compile Include="ADO\Connections\ConnectionStringBuilderExampleTests.cs" />
+    <Compile Include="ADO\Connections\DbProviderFactoriesExampleTests.cs" />
+    <Compile Include="ADO\ConnectedLayer\CommandParametersExampleTests.cs" />
+    <Compile Include="ADO\ConnectedLayer\DataReaderExampleTests.cs" />
+    <Compile Include="ADO\ConnectedLayer\DataReaderMultiSelectExampleTests.cs" />
+    <Compile Include="ADO\ConnectedLayer\DataSetExampleTests.cs" />
+    <Compile Include="ADO\ConnectedLayer\ExecuteNonQueryExampleTests.cs" />
+    <Compile Include="ADO\ConnectedLayer\TextCommandTypeExampleTests.cs" />
+    <Compile Include="ADO\ConnectedLayer\ExecutingAStoredProcedureExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\AccesingDataWithinADataSetExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\CallingAStoredProcesureExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataSetAndXMLTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataTableReaderExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataViewExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\FillDataSetExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\LinqToDataSetTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\ManipulateDataExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataAdapterExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\SQLCommandBuilderExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\RowVersionExampleTest.cs" />
+    <Compile Include="ADO\DisconnectedLayer\QueryingDataTableExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\FillSchemaExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\CreateSchemaExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\SerializationExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\CompilerDirectivesExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\ConditionalAttributeExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\CustomCompilerDirectivesExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\DebugExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\DebuggerDisplayAttributeExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\EventLogSampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\PerformanceCounterMemoryExampleTests.cs" />
+    <Compile Include="Advanced\TraceSourceExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\StopwatchExampleTests.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\PerformanceEncounterCustomExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\TransactionsExampleTests.cs" />
+    <Compile Include="Advanced\Generics\EnumParseTests.cs" />
+    <Compile Include="Advanced\Generics\EnumParseWithDefaultTests.cs" />
+    <Compile Include="Advanced\Generics\EnumTryParseTests.cs" />
+    <Compile Include="Advanced\Generics\MeanCalculatorTests.cs" />
+    <Compile Include="Advanced\Generics\PrimativeTypeParseTests.cs" />
+    <Compile Include="Advanced\Generics\PrimativeTypeParseWithDefaultTests.cs" />
+    <Compile Include="Advanced\Generics\PrimativeTypeTryParseTests.cs" />
+    <Compile Include="Advanced\Generics\SerialisationTests.cs" />
+    <Compile Include="Advanced\Linq\Operators\Aggregate.cs" />
+    <Compile Include="Advanced\Linq\Operators\Conversions.cs" />
+    <Compile Include="Advanced\Linq\Operators\Element.cs" />
+    <Compile Include="Advanced\Linq\Operators\Filters.cs" />
+    <Compile Include="Advanced\Linq\Operators\Generation.cs" />
+    <Compile Include="Advanced\Linq\Operators\Grouping.cs" />
+    <Compile Include="Advanced\Linq\Operators\Ordering.cs" />
+    <Compile Include="Advanced\Linq\Operators\Partitioning.cs" />
+    <Compile Include="Advanced\Linq\Operators\Projection.cs" />
+    <Compile Include="Advanced\Linq\Operators\Quantifiers.cs" />
+    <Compile Include="Advanced\Linq\Operators\Set.cs" />
+    <Compile Include="Advanced\Linq\SampleData\Gender.cs" />
+    <Compile Include="Advanced\Linq\SampleData\GenderDescriptor.cs" />
+    <Compile Include="Advanced\Linq\SampleData\Person.cs" />
+    <Compile Include="Advanced\Linq\SampleData\SampleDataProvider.cs" />
+    <Compile Include="Advanced\Linq\Utils\PersonSexComparer.cs" />
+    <Compile Include="Advanced\Delegates\ActionFuncAndPredicate.cs" />
+    <Compile Include="Advanced\Delegates\ContravarianceExample.cs" />
+    <Compile Include="Advanced\Delegates\CovarianceExample.cs" />
+    <Compile Include="Advanced\Delegates\DelegatesToLambda.cs" />
+    <Compile Include="Advanced\Delegates\DelegatesToLambdaWithGenerics.cs" />
+    <Compile Include="Advanced\Delegates\DelegatesToLambdaWithGlobalGenericsFunctions.cs" />
+    <Compile Include="Advanced\Delegates\EventExample.cs" />
+    <Compile Include="Advanced\Delegates\MulticastDelegateExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\AutoSelfBindTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\BindToConstantTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\BindToConstructorTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\BindToMethodTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\BindWithProviderTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\ConstructorArgumentTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\ContextualBindingTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DerrivedAttributeTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\ExplicitlySetConstructorTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\MultipleConstructorTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\NamedBindingTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\NestedInjectionTest.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\PropertyAndMethodInjectionTest.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Mocks\AssertWasCalledTests.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Mocks\ExpectCallTests.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\ASimpleStub.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\ByRefAndOutExample.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\RepeatExample.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\StubProperty.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\ArgumentConstraints\IgnoreArguments.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\ArgumentConstraints\IsConstraints.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\ArgumentConstraints\ListConstraints.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\ArgumentConstraints\MatchesConstraints.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Model\AnotherModel.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Model\Foo.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Model\IModelRepository.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Model\ISimpleModel.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Model\ModelCreator.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Model\ModelRepository.cs" />
+    <Compile Include="TestingMoqingDebugging\RhinoMocks\Stubs\LiteralExample.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetExamples\DotNetExamples.csproj">
+      <Project>{2B0ED372-DC1B-49B8-BE05-613D3BEAEDAF}</Project>
+      <Name>DotNetExamples</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

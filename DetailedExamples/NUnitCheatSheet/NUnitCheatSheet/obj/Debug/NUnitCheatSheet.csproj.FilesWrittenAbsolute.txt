@@ -1,0 +1,1 @@
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/Day12NUnitCheatSheet/NUnitCheatSheet/NUnitCheatSheet/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs

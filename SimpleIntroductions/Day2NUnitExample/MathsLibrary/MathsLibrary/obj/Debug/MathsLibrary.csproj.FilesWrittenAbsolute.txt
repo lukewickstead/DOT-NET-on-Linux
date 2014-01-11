@@ -1,0 +1,5 @@
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day2NUnitExample/MathsLibrary/MathsLibrary/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day2NUnitExample/MathsLibrary/MathsLibrary/bin/Debug/MathsLibrary.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day2NUnitExample/MathsLibrary/MathsLibrary/bin/Debug/MathsLibrary.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day2NUnitExample/MathsLibrary/MathsLibrary/obj/Debug/MathsLibrary.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day2NUnitExample/MathsLibrary/MathsLibrary/obj/Debug/MathsLibrary.dll.mdb

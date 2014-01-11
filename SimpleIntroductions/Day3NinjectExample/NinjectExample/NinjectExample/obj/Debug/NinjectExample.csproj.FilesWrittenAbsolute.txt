@@ -1,0 +1,6 @@
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day3NinjectExample/NinjectExample/NinjectExample/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day3NinjectExample/NinjectExample/NinjectExample/bin/Debug/NinjectExample.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day3NinjectExample/NinjectExample/NinjectExample/bin/Debug/NinjectExample.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day3NinjectExample/NinjectExample/NinjectExample/obj/Debug/NinjectExample.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day3NinjectExample/NinjectExample/NinjectExample/obj/Debug/NinjectExample.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day3NinjectExample/NinjectExample/NinjectExample/bin/Debug/Ninject.dll

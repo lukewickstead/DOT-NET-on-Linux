@@ -1,0 +1,6 @@
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Release/App.Config.xml
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Release/DotNetExamples.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/obj/Release/DotNetExamples.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Release/MySql.Data.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Release/Ninject.dll

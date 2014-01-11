@@ -1,0 +1,10 @@
+/home/lukey/Dropbox/Development/SandBox/Playdough/ConciseC#Misc/TheConsole/TheConsole/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Playdough/ConciseC#Misc/TheConsole/TheConsole/bin/Debug/TheConsole.exe.mdb
+/home/lukey/Dropbox/Development/SandBox/Playdough/ConciseC#Misc/TheConsole/TheConsole/bin/Debug/TheConsole.exe
+/home/lukey/Dropbox/Development/SandBox/Playdough/ConciseC#Misc/TheConsole/TheConsole/obj/x86/Debug/TheConsole.exe
+/home/lukey/Dropbox/Development/SandBox/Playdough/ConciseC#Misc/TheConsole/TheConsole/obj/x86/Debug/TheConsole.exe.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/TheConsole/TheConsole/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/TheConsole/TheConsole/bin/Debug/TheConsole.exe.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/TheConsole/TheConsole/bin/Debug/TheConsole.exe
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/TheConsole/TheConsole/obj/x86/Debug/TheConsole.exe
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/TheConsole/TheConsole/obj/x86/Debug/TheConsole.exe.mdb

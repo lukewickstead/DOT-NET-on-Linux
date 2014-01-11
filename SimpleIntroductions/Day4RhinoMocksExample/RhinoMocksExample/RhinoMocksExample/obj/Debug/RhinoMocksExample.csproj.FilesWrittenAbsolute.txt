@@ -1,0 +1,5 @@
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day4RhinoMocksExample/RhinoMocksExample/RhinoMocksExample/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day4RhinoMocksExample/RhinoMocksExample/RhinoMocksExample/bin/Debug/RhinoMocksExample.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day4RhinoMocksExample/RhinoMocksExample/RhinoMocksExample/bin/Debug/RhinoMocksExample.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day4RhinoMocksExample/RhinoMocksExample/RhinoMocksExample/obj/Debug/RhinoMocksExample.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/SimpleIntroductions/Day4RhinoMocksExample/RhinoMocksExample/RhinoMocksExample/obj/Debug/RhinoMocksExample.dll.mdb

@@ -1,0 +1,4 @@
+\\pedata1\users$\lwickste\my documents\visual studio 2010\Projects\AppDomainEvents\AppDomainEvents\bin\Debug\AppDomainEvents.exe
+\\pedata1\users$\lwickste\my documents\visual studio 2010\Projects\AppDomainEvents\AppDomainEvents\bin\Debug\AppDomainEvents.pdb
+\\pedata1\users$\lwickste\my documents\visual studio 2010\Projects\AppDomainEvents\AppDomainEvents\obj\x86\Debug\AppDomainEvents.exe
+\\pedata1\users$\lwickste\my documents\visual studio 2010\Projects\AppDomainEvents\AppDomainEvents\obj\x86\Debug\AppDomainEvents.pdb

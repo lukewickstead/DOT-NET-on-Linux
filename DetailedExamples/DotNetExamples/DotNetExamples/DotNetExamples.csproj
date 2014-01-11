@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B0ED372-DC1B-49B8-BE05-613D3BEAEDAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>DotNetExamples</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Ninject">
+      <HintPath>..\..\..\ThirdParty\Ninject-3.0.1.10-release-mono-4.0\Ninject.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\BlockingCollectionExample.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentBagExample.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentDictionaryExample.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentQueueExample.cs" />
+    <Compile Include="MultiThreading\ConcurrentCollections\ConcurrentStackExample.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\AutoResetEventExample.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\InterlockedExample.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\LockRegion.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\MonitorExample.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\ThreadJoinExample.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\ThreadStaticLocal.cs" />
+    <Compile Include="ADO\Connections\ConfigurationManagerExample.cs" />
+    <Compile Include="ADO\Connections\DbProviderFactoriesExample.cs" />
+    <Compile Include="ADO\Connections\ConnectionStringBuilderExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\TextCommandTypeExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\DataReaderExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\DataReaderMultiSelectExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\DataSetExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\ExecuteNonQueryExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\CommandParametersExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\ExecutingAStoredProcedureExample.cs" />
+    <Compile Include="ADO\ConnectedLayer\TransactionsExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\FillDataSetExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\CallingAStoredProcesureExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\AccesingDataWithinADataSetExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataTableReaderExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\QueryingDataTableExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataViewExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\StronglyTypedDataSetExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\MyDataSet.cs" />
+    <Compile Include="ADO\DisconnectedLayer\LinqToDataSet.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataSetAndXML.cs" />
+    <Compile Include="ADO\DisconnectedLayer\SerializationExample.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\IndexMethodExample.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\OperatorOverloadExample.cs" />
+    <Compile Include="Advanced\XML\BuildLoadSaveParseExample.cs" />
+    <Compile Include="Advanced\XML\HydrationExample.cs" />
+    <Compile Include="Advanced\XML\LinqToXMLExample.cs" />
+    <Compile Include="Advanced\XML\VAlidateXML.cs" />
+    <Compile Include="Advanced\Streams\FileInfoExample.cs" />
+    <Compile Include="Advanced\Streams\FileStreamExample.cs" />
+    <Compile Include="Advanced\Streams\FileSystemWatcherExample.cs" />
+    <Compile Include="Advanced\Streams\GZipStreamExample.cs" />
+    <Compile Include="Advanced\Serialization\BinaryFormatterExample.cs" />
+    <Compile Include="Advanced\Serialization\DataContractJsonSerializerExample.cs" />
+    <Compile Include="Advanced\Serialization\DataContractSerializerExample.cs" />
+    <Compile Include="Advanced\Serialization\ExampleISerializable.cs" />
+    <Compile Include="Advanced\Serialization\JavaScriptSerializerExample.cs" />
+    <Compile Include="Advanced\Serialization\MyModel.cs" />
+    <Compile Include="Advanced\Serialization\MyModelDC.cs" />
+    <Compile Include="Advanced\Serialization\SerializeEventsExample.cs" />
+    <Compile Include="Advanced\Serialization\SoapFormatterExample.cs" />
+    <Compile Include="Advanced\Serialization\XMLSerializerExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Reflection\DynamicLoadingExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\AESEncrptionExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\HashingExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\X509Example.cs" />
+    <Compile Include="AssembliesReflectionSecurity\DynamicRuntime\DynamicTypeExample.cs" />
+    <Compile Include="Basics\AggregateExceptionExample.cs" />
+    <Compile Include="Basics\DisposableClass.cs" />
+    <Compile Include="Basics\IConvertibleExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Assemblies\ConfigurationManagerExample.cs" />
+    <Compile Include="Advanced\Attributes\AnnotatedClass.cs" />
+    <Compile Include="Advanced\Attributes\ImplodeAttribute.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\CheckedUncheckedAdder.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\StringExtensions.cs" />
+    <Compile Include="Advanced\AdvancedFeatures\NullableExample.cs" />
+    <Compile Include="Advanced\Streams\TheData.cs" />
+    <Compile Include="Advanced\Streams\BinaryReaderWriterExample.cs" />
+    <Compile Include="Advanced\Streams\StreamReaderWriterExample.cs" />
+    <Compile Include="Advanced\Streams\StringReaderWriterExample.cs" />
+    <Compile Include="Advanced\Streams\HTTPWebRequestExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Assemblies\AppSettingsReaderExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Reflection\AClass.cs" />
+    <Compile Include="MultiThreading\ProcessAppDomains\ProcessExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\RSAEncryptionExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\SHA256Example.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\SHA1ManagedExample.cs" />
+    <Compile Include="MultiThreading\Spawning\AsyncExample.cs" />
+    <Compile Include="MultiThreading\Spawning\AsynchronousDelegates.cs" />
+    <Compile Include="MultiThreading\Spawning\FileIOAsyncExample.cs" />
+    <Compile Include="MultiThreading\Spawning\GetStringAsyncExample.cs" />
+    <Compile Include="MultiThreading\Spawning\ParallelExample.cs" />
+    <Compile Include="MultiThreading\Spawning\ParameterizedThreadStart.cs" />
+    <Compile Include="MultiThreading\Spawning\ParameterizedThreadStartCancel.cs" />
+    <Compile Include="MultiThreading\Spawning\PLINQExample.cs" />
+    <Compile Include="MultiThreading\Spawning\TaskExample.cs" />
+    <Compile Include="MultiThreading\Spawning\ThreadPoolCancelExample.cs" />
+    <Compile Include="MultiThreading\Spawning\ThreadPoolExample.cs" />
+    <Compile Include="MultiThreading\Spawning\ThreadStart.cs" />
+    <Compile Include="MultiThreading\Spawning\TimerExample.cs" />
+    <Compile Include="MultiThreading\ThreadSynchronization\SynchronizedAttributeExample.cs" />
+    <Compile Include="AssembliesReflectionSecurity\Security\MD5Example.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DatasetValidationPattern.cs" />
+    <Compile Include="ADO\DisconnectedLayer\DataAdapterExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\SQLCommandBuilderExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\RowVersionExampleTests.cs" />
+    <Compile Include="ADO\DisconnectedLayer\FillSchemaExample.cs" />
+    <Compile Include="ADO\DisconnectedLayer\CreateSchemaExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\CompilerDirectivesExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\ConditionalAttributeExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\CustomCompilerDirectivesExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\DebugExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\DebuggerDisplayAttributeExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\EventLogger.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\LineDirective.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\PerformanceEncounterExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\PragmaExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\StopWatchExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\TraceSourceExample.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\WarningAndErrorDirectives.cs" />
+    <Compile Include="TestingMoqingDebugging\Debugging\PerformanceCounterMemoryExample.cs" />
+    <Compile Include="Advanced\Generics\Serialisation\SampleClass.cs" />
+    <Compile Include="Advanced\Generics\Serialisation\Serializer.cs" />
+    <Compile Include="Advanced\Generics\StringExtensionMethods.cs\ParseAndTryParse.cs" />
+    <Compile Include="Advanced\Generics\Utilities\PrimativeTypeParsingBinder.cs" />
+    <Compile Include="Advanced\Generics\Examples.cs" />
+    <Compile Include="Advanced\Generics\MeanCalculator.cs" />
+    <Compile Include="Advanced\Generics\SampleEnum.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\Attributes.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\AuoSelfBindExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ExplicitlySetConstructorExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\MultipleConstructorExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\PropertyAndMethodInjectionExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\RuntimeConstructorArgumentExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\SelfBindExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\UserDefinedConstructorExample.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\ChildA.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\ChildB.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\GrandParent.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\IChild.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\IInject.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\IParent.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\InjectA.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\InjectB.cs">
+      <DependentUpon>InjectD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\InjectD.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\ParentA.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\ExampleClasses\ContextualBinding\ParentB.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\Interfaces\IClass.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\CalledBy.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\ConstructorWithArguments.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\InjectWhenClassHas.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\InjectWhenMemberAndTargetHas.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\InjectWithIsNotSomething.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\InjectWithIsSomething.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\KnownC.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\KnownD.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\KnownE.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\NestedResolve.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\UnknownA.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\DataModel\TestClasses\UnknownB.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\KernelModules\ContextualBindingModule.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\KernelModules\DerrivedAtrributeModule.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\KernelModules\MultipleConstructorModule.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\KernelModules\NamedBindingModule.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\KernelModules\ScopeModule.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\KernelModules\SelfBindModule.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\KernelModules\WithMetadataModule.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\Attributes\IsNotSomething.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\Attributes\IsSomething.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\Attributes\WhenClassHas.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\Attributes\WhenMemberHas.cs" />
+    <Compile Include="TestingMoqingDebugging\NInject\Attributes\WhenTargetHas.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="MultiThreading\" />
+    <Folder Include="ADO\" />
+    <Folder Include="ADO\Connections\" />
+    <Folder Include="ADO\ConnectedLayer\" />
+    <Folder Include="ADO\DisconnectedLayer\" />
+    <Folder Include="Advanced\" />
+    <Folder Include="AssembliesReflectionSecurity\" />
+    <Folder Include="Basics\" />
+    <Folder Include="MultiThreading\Spawning\" />
+    <Folder Include="TestingMoqingDebugging\" />
+    <Folder Include="Advanced\Generics\" />
+    <Folder Include="Advanced\Generics\Serialisation\" />
+    <Folder Include="Advanced\Generics\StringExtensionMethods.cs\" />
+    <Folder Include="Advanced\Generics\Utilities\" />
+    <Folder Include="TestingMoqingDebugging\NInject\" />
+    <Folder Include="TestingMoqingDebugging\NInject\Attributes\" />
+    <Folder Include="TestingMoqingDebugging\NInject\DataModel\" />
+    <Folder Include="TestingMoqingDebugging\NInject\KernelModules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

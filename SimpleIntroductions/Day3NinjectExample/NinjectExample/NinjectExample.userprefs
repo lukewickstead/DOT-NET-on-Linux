@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectExampleTests/Test.cs">
+    <Files>
+      <File FileName="NinjectExampleTests/Test.cs" Line="70" Column="4" />
+      <File FileName="NinjectExample/Models/SimpleClass.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/Models/ClassWithDependancy.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/InjectionFactory.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/Models/ClassWithConstructorParameters.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/Interfaces/IClassWithConstructorParameters.cs" Line="18" Column="6" />
+      <File FileName="NinjectExample/Interfaces/ISimpleClass.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/Models/ClassWithDependancyAlso.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/Models/SimpleClassAlso.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/Interfaces/IClassWithDependancy.cs" Line="1" Column="1" />
+      <File FileName="NinjectExample/AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/PersonalData/DevProjects/DotNetOnLinux/SandBox/MVCOnLinux/Day3NinjectExample/NinjectExample/NinjectExample/Model/SimpleClass.cs" line="10" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.BookmarkService.Bookmarks>
+    <BookmarkCollection />
+  </MonoDevelop.Ide.BookmarkService.Bookmarks>
+</Properties>

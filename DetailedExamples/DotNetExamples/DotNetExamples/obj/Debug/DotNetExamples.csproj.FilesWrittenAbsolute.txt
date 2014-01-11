@@ -1,0 +1,15 @@
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/App.Config.xml
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/DotNetExamples.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/DotNetExamples.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/obj/Debug/DotNetExamples.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/obj/Debug/DotNetExamples.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/MySql.Data.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/Ninject.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/DotNetExamples/DotNetExamples/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/App.Config.xml
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/DotNetExamples.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/DotNetExamples.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/DotNetExamples/DotNetExamples/obj/Debug/DotNetExamples.dll
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/DotNetExamples/DotNetExamples/obj/Debug/DotNetExamples.dll.mdb
+/home/lukey/Dropbox/Development/SandBox/Git/DOT-NET-on-Linux/DetailedExamples/DotNetExamples/DotNetExamples/bin/Debug/Ninject.dll

@@ -1,0 +1,7 @@
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamplesTests/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamplesTests/bin/Release/App.Config.xml
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamplesTests/bin/Release/DotNetExamplesTests.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamplesTests/obj/Release/DotNetExamplesTests.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamplesTests/bin/Release/Ninject.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamplesTests/bin/Release/Rhino.Mocks.dll
+/home/lukey/Dropbox/Development/SandBox/Playdough/GitResort/DetailedExamples/DotNetExamples/DotNetExamplesTests/bin/Release/DotNetExamples.dll
