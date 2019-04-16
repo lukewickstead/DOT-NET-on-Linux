@@ -63,7 +63,7 @@ namespace GenericsExamples.Tests
         /// <param name="number">Test data</param>
         /// <param name="expectedResult">Expected Result</param>
         [Theory]
-        [PropertyData("SamplePropertyDataProperty")]
+        [MemberData(nameof(SamplePropertyDataProperty))]
         public void PropertyDataExample(int number, bool expectedResult)
         {
             Console.WriteLine("AccountTests.PropertyDataExample(int {0}, bool {1})", number, expectedResult);
