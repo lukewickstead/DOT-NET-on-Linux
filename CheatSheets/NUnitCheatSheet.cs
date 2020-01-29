@@ -13,27 +13,28 @@ namespace NUnitCheatSheet
 	/// Provides the config for all TestFixture classes witin the same namespace.
 	/// </summary>
 	[SetUpFixture]
-  	public class TestFixtureSetUp
-  	{
+	public class TestFixtureSetUp
+	{
 		/// <summary>
 		/// SetUp; run once before all tests in a test fixture. 
 		/// Run once for each TestFixture in the same namespace.
 		/// </summary>
-	    [SetUp]
+		[SetUp]
 		public void RunBeforeAnyTests()
 		{
-		  // Set up code here.
+			// Set up code here.
 		}
+
 		/// <summary>
 		/// TearDown; run once after all tests in a test fixture. 
 		/// Run once for each TestFixture in the same namespace.
 		/// </summary>
-	    [TearDown]
+		[TearDown]
 		public void RunAfterAnyTests()
 		{
-		  // Clear up code here.
+			// Clear up code here.
 		}
-  	}
+	}
 
 	/// <summary>
 	/// Factory class for providing test data for tests with the TestCaseSource attribue.
@@ -43,16 +44,16 @@ namespace NUnitCheatSheet
 		/// <summary>
 		/// TestCaseSource tests can consume IEnumerable properties which return TestCaseData
 		/// </summary>
-	  	public static IEnumerable TestCasesDataForTestCaseSourceTest
+		public static IEnumerable TestCasesDataForTestCaseSourceTest
 		{
-		    get
-		    {
-		      yield return new TestCaseData( 1, "1" ).Returns( 2 ); // Defines the test data and the expected return
-		      yield return new TestCaseData( 2, "2" ).Returns( 4 );
-		      yield return new TestCaseData( 0, "a" )
+			get
+			{
+				yield return new TestCaseData( 1, "1" ).Returns( 2 ); // Defines the test data and the expected return
+				yield return new TestCaseData( 2, "2" ).Returns( 4 );
+				yield return new TestCaseData( 0, "a" )
 						.Throws(typeof(ArgumentException)); // Defines the test data and the expected throw exception
-		    }
-		}  
+			}
+		}
 	}
 
 	/// <summary>
@@ -66,7 +67,7 @@ namespace NUnitCheatSheet
 		/// </summary>
 		public static object[] CaseSourceTestData =
 		{
-		    new object[] { 1, 1.1m, "2.1" },
+			new object[] { 1, 1.1m, "2.1" },
 			new object[] { 2, 2.2m, "4.2" },
 			new object[] { 3, 3.3m, "6.3" },
 		};
@@ -75,23 +76,26 @@ namespace NUnitCheatSheet
 		/// <summary>
 		/// TestFixtureSetUp called once before any tests have been run in the same TestFixture
 		/// </summary>
-		[TestFixtureSetUp] public void FixtureSetUp()
-    	{ 
+		[TestFixtureSetUp]
+		public void FixtureSetUp()
+		{
 			// Set up code here.
 		}
+
 		/// <summary>
 		/// TestFixtureTearDown called once after all tests have been run in the same TestFixture
 		/// </summary>
-    	[TestFixtureTearDown] public void FixtureTearDown()
-    	{
+		[TestFixtureTearDown]
+		public void FixtureTearDown()
+		{
 			// Clear up code here.
 		}
 
 		/// <summary>
-		/// SetsUp is called once before each Test within the same TestFxiture
+		/// SetsUp is called once before each Test within the same TestFixture
 		/// </summary>
 		[SetUp] public void SetUp()
-    	{
+		{
 			// Set up code here.
 			// If this throws an exception no Test in the TestFixture are run.
 		}
@@ -99,9 +103,10 @@ namespace NUnitCheatSheet
 		/// <summary>
 		/// TearsDown is called once after each Test within the same TestFixture.
 		/// </summary>
-    	[TearDown] public void TearDown()
-    	{ 
-			 // Clear up code here.
+		[TearDown]
+		public void TearDown()
+		{ 
+			// Clear up code here.
 			// Will not run if no tess are run due to [SetUp] throwing an exception
 		}
 		# endregion
@@ -120,16 +125,16 @@ namespace NUnitCheatSheet
 		/// Explicit defines tests which are only run manualy.
 		/// </summary>
 		[Test, Explicit("Test has to be run explicitly")]
-    	public void ExplicitAttributeTest()
-    	{
+		public void ExplicitAttributeTest()
+		{
 		}
 
 		/// <summary>
 		/// Ignore marks tests which are not run even if run manually
 		/// </summary>
 		[Test, Ignore("Ignore this test")]
-    	public void IgnoreAttribueTest()
-    	{
+		public void IgnoreAttribueTest()
+		{
 		}
 
 		/// <summary>
@@ -137,7 +142,7 @@ namespace NUnitCheatSheet
 		/// </summary>
 		[Test, MaxTimeAttribute(2000)]
 		public void MaxtimeAttributeTest()
-		{    
+		{
 		}
 
 		/// <summary>
@@ -154,35 +159,36 @@ namespace NUnitCheatSheet
 		/// </summary>
 		[Test, Platform("Mono"), Culture("en-GB")]
 		public void PlatformAttributeTest()
-  		{
+		{
 			// Can also provide exclusion culture and platform
 			// Test case is ignored if Platform or Cultrue can not be provided
- 		}
+		}
 
-		/// <summary>t
+		/// <summary>
 		/// Property: categorises the test witin the test output XML.
 		/// </summary>
 		[Test, Property("PropertyName", "Value")]
 		public void PropertyAttributeTest()
-    	{}
+		{
+		}
 
 		/// <summary>
 		/// Custom Property: categorises the test within the test output XML.
 		/// </summary>
 		[Test, CustomPropertyAttribute(CustomPropertyValue.One)]
 		public void CustomPropertyAttributeTest()
-    	{}
+		{
+		}
 
 
 		#region Parameterized
 		/// <summary>
 		/// Combinatorial: The test is run with each combination of Values for each parameter 
 		/// </summary>
-
 		[Test, Combinatorial]
 		public void CombinatorialAttributeTest ([Values(1,2,3)] int a, [Values("a", "b", "c")] string b)
 		{
-			// Called 9 times with  parameter pairs of: {1,a}, {1,b}, {1,c}, {2,a}, {3,b}....			
+			// Called 9 times with  parameter pairs of: {1,a}, {1,b}, {1,c}, {2,a}, {3,b}....
 		}
 
 		/// <summary>
@@ -190,7 +196,7 @@ namespace NUnitCheatSheet
 		/// </summary>
 		[Test]
 		public void RandomAttributeTest(
-    	[Random(1, 10, 2)] int value)
+		[Random(1, 10, 2)] int value)
 		{
 			// Called 2 times with a random integer between 1 and 10
 			Assert.That(value, Is.InRange(1,10));
@@ -201,8 +207,8 @@ namespace NUnitCheatSheet
 		/// </summary>
 		[Test, Sequential]
 		public void SequentialAttributeTest(
-    	[Values(1,2,3)] int x,
-    	[Values("A","B")] string s)
+		[Values(1,2,3)] int x,
+		[Values("A","B")] string s)
 		{
 			// Test runs for parameter pairs {1,A}, {2,B}, {3, null}
 		}
@@ -212,8 +218,8 @@ namespace NUnitCheatSheet
 		/// </summary>
 		[Test]
 		public void RangeAttributeTest(
-    	[Range(0.0, 1, 0.5)] decimal value)
-		{    
+		[Range(0.0, 1, 0.5)] decimal value)
+		{
 			// Test run for parameters, 0.0, 0.5, 1.0
 			Assert.That(value, Is.InRange(0m,1m));
 		}
@@ -249,7 +255,7 @@ namespace NUnitCheatSheet
 		[TestCase(3,3, Result=6)]
 		public int TestCaseTest(int a, int b)
 		{
-		  return( a + b);
+			return( a + b);
 		}
 		#endregion
 
@@ -259,7 +265,6 @@ namespace NUnitCheatSheet
 		[Test(), Category("Assertion based testing")]
 		public void TestAssertions ()
 		{
-
 			// Equality 
 			Assert.AreEqual (true, true);
 			Assert.AreNotEqual (true, false);
@@ -348,7 +353,7 @@ namespace NUnitCheatSheet
 			FileAssert.AreNotEqual (new FileInfo ("MyFile.txt"), new FileInfo ("MyFile2.txt"));
 			FileAssert.AreNotEqual ("MyFile.txt", "MyFile2.txt");
 			FileAssert.AreNotEqual (new FileStream ("MyFile.txt", FileMode.Open), new FileStream ("MyFile2.txt", FileMode.Open));
-	
+
 
 			// Utilities: will cause the test to stop immediatly and mark the test as:
 			Assert.Pass ();   		
@@ -367,7 +372,6 @@ namespace NUnitCheatSheet
 		[Category("Constraint based testing")]
 		public void TestConstraints ()
 		{
-
 			// Numerical Equality
 			Assert.That (1, Is.EqualTo (1));
 			Assert.That (1, Is.Not.EqualTo (2));
@@ -397,7 +401,7 @@ namespace NUnitCheatSheet
 			Assert.That (new double[] {1.0,2.0,3.0}, Is.EqualTo (new int[] {1,2,3}));
 			Assert.That (new double[] {1.0,2.0,3.0}, Is.Not.EqualTo (new int[] {1,2,3, 4}));
 			Assert.That (new double[] {1.0,2.0,3.0,4.0}, Is.EqualTo (new  int[,] {{1,2}, {3,4}}).AsCollection); // Compare data and not collection (flattens a collection of collections)
-		
+
 			// Customer Comparer
 			Assert.That( int.MinValue, Is.EqualTo(int.MaxValue).Using(new WhoCaresComparer())); 
 
@@ -436,7 +440,7 @@ namespace NUnitCheatSheet
 			Assert.That(new MemoryStream(), Is.TypeOf(typeof(MemoryStream))); // Is type and not ancestor
 			Assert.That(new object(), Is.AssignableFrom(typeof(MemoryStream))); // Can be assigned from
 			Assert.That(new MemoryStream(), Is.AssignableTo(typeof(Stream))); // Can be assignable to
-	
+
 			Assert.That(new MemoryStream(), Is.InstanceOf<Stream>());  // Is type or ancestor
 			Assert.That(new MemoryStream(), Is.TypeOf<MemoryStream>()); // Is type and not ancestor
 			Assert.That(new object(), Is.AssignableFrom<MemoryStream>()); // Can be assigned from
@@ -460,7 +464,7 @@ namespace NUnitCheatSheet
 			Assert.That( new List<int>(){1,2,3}, Has.Member(1));  // Contains
 			Assert.That( new List<int>(){1,2,3}, Is.EquivalentTo( new List<int>(){3,2,1})); // Same data without carring about the order
 			Assert.That( new List<int>(){1,2,}, Is.SubsetOf( new List<int>(){3,2,1})); // All are cotained.
-		
+
 
 			// Property Constraint
 			Assert.That( new List<int>(), Has.Property("Count").EqualTo(0));  // Checks public property
@@ -508,18 +512,19 @@ namespace NUnitCheatSheet
 			            Is.EqualTo(new List<int>(){1,2,3}));
 		}
 	}
+	
 	# region Elements consumed by the tests above
 	public class WhoCaresComparer : IEqualityComparer<int>
 	{
-	    public bool Equals(int b1, int b2)
-	    {
+		public bool Equals(int b1, int b2)
+		{
 			return true;
-	    }
+		}
 
-	    public int GetHashCode(int aNumber)
-	    {
+		public int GetHashCode(int aNumber)
+		{
 			return aNumber.GetHashCode();
-	    }
+		}
 	}
 
 	public class ReverseComparer : IComparer
@@ -533,14 +538,14 @@ namespace NUnitCheatSheet
 
 	public enum CustomPropertyValue
 	{
-    	One,
-    	Two,
-   	}
+		One,
+		Two,
+	}
 
 	[AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
 	public class CustomPropertyAttribute : PropertyAttribute
 	{
-    	public CustomPropertyAttribute( CustomPropertyValue value ) : base( "Custom", value.ToString() )
+		public CustomPropertyAttribute( CustomPropertyValue value ) : base( "Custom", value.ToString() )
 		{
 		}
 	}
